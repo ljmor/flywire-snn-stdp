@@ -1,0 +1,16 @@
+# Local environment
+env/
+venv/
+.venv/
+
+# Large connectome dumps downloaded from FlyWire Codex
+01-data-understanding/data/connections_*.csv.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

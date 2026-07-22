@@ -1,0 +1,18 @@
+{
+  "run": "LIF with STDP + WTA",
+  "N_neurons": 1239,
+  "N_synapses_exc": 9385,
+  "N_synapses_inh": 10674,
+  "total_spikes": 6676,
+  "mean_rate_hz": 5.388216303470541,
+  "active_neurons": 349,
+  "active_percent": 28.167877320419695,
+  "mean_weight_before": 0.8935492071244204,
+  "mean_weight_after": 0.90002999516513,
+  "mean_dw": 0.006480788040709518,
+  "mean_abs_dw": 0.00857801317571881,
+  "std_dw": 0.06127676396786446,
+  "synapses_potentiated": 397,
+  "synapses_depressed": 124,
+  "synapses_modified_pct": 5.551411827384124
+}
