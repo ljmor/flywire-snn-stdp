@@ -1,10 +1,24 @@
-# Python 3.11 recommended (Brian2 wheels are reliable there)
-brian2>=2.5
-networkx>=3.0
+# Dependencies of the framework, with minimum versions.
+# This file is enough to run and extend the code. To reproduce the numbers of
+# this repository exactly, install requirements-lock.txt instead: it pins the
+# 124 packages of the environment we tested (Python 3.14.6 on macOS).
+# Details and how to cite these packages: 06-deployment/README.md.
+#
+#   python -m venv env && source env/bin/activate
+#   pip install -r requirements.txt
+
+brian2>=2.10          # spiking neural network simulator
+numpy>=2.0
 pandas>=2.0
-numpy>=1.24
-scipy>=1.10
-matplotlib>=3.7
-seaborn>=0.12
-python-louvain>=0.16
-jupyterlab>=4.0
+scipy>=1.14           # gammatone filterbank, statistics
+scikit-learn>=1.5     # linear readout and conventional (second-generation) baselines
+networkx>=3.3         # topological metrics and community detection
+matplotlib>=3.9
+jupyter>=1.0          # running the notebooks
+nbformat>=5.10
+nbconvert>=7.16
+Pillow>=10.0          # figure check in 06-deployment/verify_outputs.py
+
+# Optional: only used by the comparison with conventional (second-generation)
+# networks in phase 04 (04-modeling/baseline_ann.py), which the full pipeline runs
+torch>=2.0

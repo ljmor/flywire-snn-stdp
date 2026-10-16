@@ -1,0 +1,4062 @@
+[
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.55,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.875,
+   "Medium": 0.875,
+   "Hard": 0.75,
+   "Very hard": 0.675
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 323118.0,
+  "mean_rate_hz": 10.431573849878935,
+  "spikes_per_correct": 5874.8727272727265,
+  "selectivity": 0.9134582637071251,
+  "coverage_pct": 19.13888888888889,
+  "propagation_ratio": 0.09203428314740457,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.33
+   ],
+   [
+    25,
+    0.29
+   ],
+   [
+    50,
+    0.43
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.55
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.45,
+   "100": 0.46,
+   "250": 0.55,
+   "500": 0.57
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_static",
+  "w_input": 10.075000000000001
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.54,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.925,
+   "Medium": 0.825,
+   "Hard": 0.775,
+   "Very hard": 0.675
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 322378.0,
+  "mean_rate_hz": 10.40768361581921,
+  "spikes_per_correct": 5969.962962962963,
+  "selectivity": 0.9109688432527001,
+  "coverage_pct": 19.266129032258064,
+  "propagation_ratio": 0.09220566407482346,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.33
+   ],
+   [
+    25,
+    0.34
+   ],
+   [
+    50,
+    0.44
+   ],
+   [
+    75,
+    0.48
+   ],
+   [
+    100,
+    0.54
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.41,
+   "100": 0.48,
+   "250": 0.54,
+   "500": 0.53
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_static",
+  "w_input": 10.075000000000001
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.64,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.925,
+   "Medium": 0.975,
+   "Hard": 0.85,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 324478.0,
+  "mean_rate_hz": 10.4754802259887,
+  "spikes_per_correct": 5069.96875,
+  "selectivity": 0.9128604606812323,
+  "coverage_pct": 19.192652329749105,
+  "propagation_ratio": 0.09144253561219358,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.32
+   ],
+   [
+    25,
+    0.45
+   ],
+   [
+    50,
+    0.54
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.64
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.38,
+   "50": 0.38,
+   "100": 0.38,
+   "250": 0.64,
+   "500": 0.61
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_static",
+  "w_input": 10.075000000000001
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.45,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.925,
+   "Medium": 0.85,
+   "Hard": 0.8,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 320390.0,
+  "mean_rate_hz": 10.343502824858756,
+  "spikes_per_correct": 7119.777777777777,
+  "selectivity": 0.9131420872225665,
+  "coverage_pct": 19.168458781362006,
+  "propagation_ratio": 0.09156666666666666,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.36
+   ],
+   [
+    25,
+    0.35
+   ],
+   [
+    50,
+    0.38
+   ],
+   [
+    75,
+    0.44
+   ],
+   [
+    100,
+    0.45
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.36,
+   "100": 0.41,
+   "250": 0.45,
+   "500": 0.45
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_static",
+  "w_input": 10.075000000000001
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.65,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.95,
+   "Medium": 0.975,
+   "Hard": 0.875,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 317631.0,
+  "mean_rate_hz": 10.254430992736077,
+  "spikes_per_correct": 4886.630769230769,
+  "selectivity": 0.9129508079783172,
+  "coverage_pct": 19.008960573476703,
+  "propagation_ratio": 0.08882361798575454,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.34
+   ],
+   [
+    25,
+    0.45
+   ],
+   [
+    50,
+    0.56
+   ],
+   [
+    75,
+    0.62
+   ],
+   [
+    100,
+    0.65
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.34,
+   "100": 0.42,
+   "250": 0.65,
+   "500": 0.61
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_static",
+  "w_input": 10.075000000000001
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 530999.0,
+  "mean_rate_hz": 17.142824858757063,
+  "spikes_per_correct": 5899.988888888889,
+  "selectivity": 0.9547158943497704,
+  "coverage_pct": 5.232974910394265,
+  "propagation_ratio": 0.46260699749853285,
+  "mean_dw": 0.531125432313157,
+  "weight_drift": 0.012241631966236847,
+  "convergence_curve": [
+   [
+    10,
+    0.58
+   ],
+   [
+    25,
+    0.79
+   ],
+   [
+    50,
+    0.9
+   ],
+   [
+    75,
+    0.89
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.63,
+   "100": 0.68,
+   "250": 0.9,
+   "500": 0.89
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 538380.0,
+  "mean_rate_hz": 17.381113801452784,
+  "spikes_per_correct": 6049.213483146067,
+  "selectivity": 0.954092873569198,
+  "coverage_pct": 5.340501792114695,
+  "propagation_ratio": 0.4985440964131341,
+  "mean_dw": 0.5085134048458488,
+  "weight_drift": 0.007062790860456196,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.73
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.92
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.36,
+   "50": 0.52,
+   "100": 0.7,
+   "250": 0.89,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.8,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 643368.0,
+  "mean_rate_hz": 20.77055690072639,
+  "spikes_per_correct": 8042.1,
+  "selectivity": 0.9342420564037722,
+  "coverage_pct": 8.703405017921147,
+  "propagation_ratio": 0.7069518246756933,
+  "mean_dw": 0.7280406981050126,
+  "weight_drift": 0.016811388344162022,
+  "convergence_curve": [
+   [
+    10,
+    0.48
+   ],
+   [
+    25,
+    0.63
+   ],
+   [
+    50,
+    0.72
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.8
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.53,
+   "100": 0.65,
+   "250": 0.8,
+   "500": 0.89
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.93,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 624281.0,
+  "mean_rate_hz": 20.154350282485876,
+  "spikes_per_correct": 6712.698924731183,
+  "selectivity": 0.9459234870794252,
+  "coverage_pct": 6.367383512544803,
+  "propagation_ratio": 0.6110660043696992,
+  "mean_dw": 0.5946528282705931,
+  "weight_drift": 0.01568547335024555,
+  "convergence_curve": [
+   [
+    10,
+    0.59
+   ],
+   [
+    25,
+    0.68
+   ],
+   [
+    50,
+    0.88
+   ],
+   [
+    75,
+    0.94
+   ],
+   [
+    100,
+    0.93
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.48,
+   "50": 0.52,
+   "100": 0.68,
+   "250": 0.93,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.88,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 603842.0,
+  "mean_rate_hz": 19.49449556093624,
+  "spikes_per_correct": 6861.840909090909,
+  "selectivity": 0.9485184145533885,
+  "coverage_pct": 6.292114695340501,
+  "propagation_ratio": 0.582830573022464,
+  "mean_dw": 0.6381264023601864,
+  "weight_drift": 0.02091217104013007,
+  "convergence_curve": [
+   [
+    10,
+    0.53
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.89
+   ],
+   [
+    100,
+    0.88
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.43,
+   "50": 0.59,
+   "100": 0.73,
+   "250": 0.88,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "er",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.51,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 1.0,
+   "Medium": 0.85,
+   "Hard": 0.625,
+   "Very hard": 0.775
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 315228.0,
+  "mean_rate_hz": 10.17685230024213,
+  "spikes_per_correct": 6180.941176470588,
+  "selectivity": 0.8805898790251655,
+  "coverage_pct": 28.64784946236559,
+  "propagation_ratio": 0.19711615332513233,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.29
+   ],
+   [
+    25,
+    0.33
+   ],
+   [
+    50,
+    0.38
+   ],
+   [
+    75,
+    0.41
+   ],
+   [
+    100,
+    0.51
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.49,
+   "50": 0.37,
+   "100": 0.43,
+   "250": 0.51,
+   "500": 0.58
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_static",
+  "w_input": 5.0875
+ },
+ {
+  "topology": "er",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.48,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.925,
+   "Easy": 0.95,
+   "Medium": 0.925,
+   "Hard": 0.6,
+   "Very hard": 0.625
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 320112.0,
+  "mean_rate_hz": 10.334527845036321,
+  "spikes_per_correct": 6669.0,
+  "selectivity": 0.8752685430691423,
+  "coverage_pct": 29.592293906810035,
+  "propagation_ratio": 0.2110455547752046,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.22
+   ],
+   [
+    25,
+    0.23
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.46
+   ],
+   [
+    100,
+    0.48
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.47,
+   "50": 0.33,
+   "100": 0.34,
+   "250": 0.48,
+   "500": 0.44
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_static",
+  "w_input": 5.0875
+ },
+ {
+  "topology": "er",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.39,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.825,
+   "Easy": 0.8,
+   "Medium": 0.725,
+   "Hard": 0.55,
+   "Very hard": 0.525
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 715352.0,
+  "mean_rate_hz": 23.094495560936238,
+  "spikes_per_correct": 18342.358974358973,
+  "selectivity": 0.8455996677886624,
+  "coverage_pct": 35.121863799283155,
+  "propagation_ratio": 0.4237713541349191,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.18
+   ],
+   [
+    25,
+    0.25
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.36
+   ],
+   [
+    100,
+    0.39
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.38,
+   "50": 0.26,
+   "100": 0.3,
+   "250": 0.39,
+   "500": 0.48
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_static",
+  "w_input": 5.0875
+ },
+ {
+  "topology": "er",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.38,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.9,
+   "Easy": 0.85,
+   "Medium": 0.75,
+   "Hard": 0.625,
+   "Very hard": 0.725
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 315431.0,
+  "mean_rate_hz": 10.183405972558516,
+  "spikes_per_correct": 8300.815789473685,
+  "selectivity": 0.8701278837645041,
+  "coverage_pct": 29.635304659498207,
+  "propagation_ratio": 0.22806698013415486,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.25
+   ],
+   [
+    25,
+    0.28
+   ],
+   [
+    50,
+    0.31
+   ],
+   [
+    75,
+    0.37
+   ],
+   [
+    100,
+    0.38
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.3,
+   "100": 0.3,
+   "250": 0.38,
+   "500": 0.53
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_static",
+  "w_input": 5.0875
+ },
+ {
+  "topology": "er",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.46,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.95,
+   "Medium": 0.975,
+   "Hard": 0.75,
+   "Very hard": 0.6
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 307324.0,
+  "mean_rate_hz": 9.921678773204198,
+  "spikes_per_correct": 6680.95652173913,
+  "selectivity": 0.8777170886380418,
+  "coverage_pct": 28.188172043010752,
+  "propagation_ratio": 0.23006755807899135,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.27
+   ],
+   [
+    25,
+    0.43
+   ],
+   [
+    50,
+    0.44
+   ],
+   [
+    75,
+    0.51
+   ],
+   [
+    100,
+    0.46
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.46,
+   "50": 0.39,
+   "100": 0.48,
+   "250": 0.46,
+   "500": 0.49
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_static",
+  "w_input": 5.0875
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.51,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.975,
+   "Medium": 0.975,
+   "Hard": 0.7,
+   "Very hard": 0.9
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 850865.0,
+  "mean_rate_hz": 27.46941081517353,
+  "spikes_per_correct": 16683.62745098039,
+  "selectivity": 0.915234097761884,
+  "coverage_pct": 14.021505376344084,
+  "propagation_ratio": 0.5599255207797862,
+  "mean_dw": 0.6413267663711466,
+  "weight_drift": 0.025513066786823423,
+  "convergence_curve": [
+   [
+    10,
+    0.26
+   ],
+   [
+    25,
+    0.38
+   ],
+   [
+    50,
+    0.48
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.51
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.38,
+   "100": 0.47,
+   "250": 0.51,
+   "500": 0.59
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.39,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.875,
+   "Medium": 0.75,
+   "Hard": 0.6,
+   "Very hard": 0.6
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 1018698.0,
+  "mean_rate_hz": 32.88774818401937,
+  "spikes_per_correct": 26120.46153846154,
+  "selectivity": 0.9109469642028571,
+  "coverage_pct": 14.54121863799283,
+  "propagation_ratio": 0.4269206025810012,
+  "mean_dw": 0.6243684604257652,
+  "weight_drift": 0.014200882935409474,
+  "convergence_curve": [
+   [
+    10,
+    0.31
+   ],
+   [
+    25,
+    0.31
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.38
+   ],
+   [
+    100,
+    0.39
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.28,
+   "50": 0.28,
+   "100": 0.3,
+   "250": 0.39,
+   "500": 0.52
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.5,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.925,
+   "Easy": 0.95,
+   "Medium": 0.95,
+   "Hard": 0.7,
+   "Very hard": 0.7
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 924072.0,
+  "mean_rate_hz": 29.83283292978208,
+  "spikes_per_correct": 18481.44,
+  "selectivity": 0.9306739141493527,
+  "coverage_pct": 10.60125448028674,
+  "propagation_ratio": 0.3415732847952706,
+  "mean_dw": 0.5069890170891667,
+  "weight_drift": 0.019418738793251074,
+  "convergence_curve": [
+   [
+    10,
+    0.34
+   ],
+   [
+    25,
+    0.39
+   ],
+   [
+    50,
+    0.51
+   ],
+   [
+    75,
+    0.46
+   ],
+   [
+    100,
+    0.5
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.32,
+   "100": 0.41,
+   "250": 0.5,
+   "500": 0.57
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.39,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.825,
+   "Easy": 0.725,
+   "Medium": 0.85,
+   "Hard": 0.625,
+   "Very hard": 0.7
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 1224852.0,
+  "mean_rate_hz": 39.54324455205811,
+  "spikes_per_correct": 31406.46153846154,
+  "selectivity": 0.917514445208472,
+  "coverage_pct": 8.947132616487455,
+  "propagation_ratio": 0.3658477491855949,
+  "mean_dw": 0.5034661643353164,
+  "weight_drift": 0.017313725969562474,
+  "convergence_curve": [
+   [
+    10,
+    0.26
+   ],
+   [
+    25,
+    0.3
+   ],
+   [
+    50,
+    0.3
+   ],
+   [
+    75,
+    0.41
+   ],
+   [
+    100,
+    0.39
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.31,
+   "50": 0.23,
+   "100": 0.29,
+   "250": 0.39,
+   "500": 0.45
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.35,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.925,
+   "Medium": 0.775,
+   "Hard": 0.675,
+   "Very hard": 0.7
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 1119366.0,
+  "mean_rate_hz": 36.137723970944315,
+  "spikes_per_correct": 31981.885714285716,
+  "selectivity": 0.9225520788316924,
+  "coverage_pct": 8.620967741935484,
+  "propagation_ratio": 0.39530014341323505,
+  "mean_dw": 0.5473573868396074,
+  "weight_drift": 0.014316824378137487,
+  "convergence_curve": [
+   [
+    10,
+    0.24
+   ],
+   [
+    25,
+    0.39
+   ],
+   [
+    50,
+    0.39
+   ],
+   [
+    75,
+    0.38
+   ],
+   [
+    100,
+    0.35
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.33,
+   "50": 0.32,
+   "100": 0.32,
+   "250": 0.35,
+   "500": 0.46
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.63,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.975,
+   "Hard": 0.925,
+   "Very hard": 0.875
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 346414.0,
+  "mean_rate_hz": 11.18366424535916,
+  "spikes_per_correct": 5498.6349206349205,
+  "selectivity": 0.9084922081459714,
+  "coverage_pct": 21.671146953405017,
+  "propagation_ratio": 0.22878940029971265,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.39
+   ],
+   [
+    25,
+    0.4
+   ],
+   [
+    50,
+    0.43
+   ],
+   [
+    75,
+    0.53
+   ],
+   [
+    100,
+    0.63
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.51,
+   "50": 0.49,
+   "100": 0.5,
+   "250": 0.63,
+   "500": 0.6
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_static",
+  "w_input": 6.3343750000000005
+ },
+ {
+  "topology": "configuration",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.52,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.975,
+   "Medium": 0.95,
+   "Hard": 0.875,
+   "Very hard": 0.625
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 312351.0,
+  "mean_rate_hz": 10.083970944309927,
+  "spikes_per_correct": 6006.75,
+  "selectivity": 0.907082335232693,
+  "coverage_pct": 21.884408602150536,
+  "propagation_ratio": 0.18441272027964628,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.4
+   ],
+   [
+    25,
+    0.42
+   ],
+   [
+    50,
+    0.46
+   ],
+   [
+    75,
+    0.52
+   ],
+   [
+    100,
+    0.52
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.38,
+   "100": 0.49,
+   "250": 0.52,
+   "500": 0.58
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_static",
+  "w_input": 6.3343750000000005
+ },
+ {
+  "topology": "configuration",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.65,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.85,
+   "Very hard": 0.775
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 298740.0,
+  "mean_rate_hz": 9.64455205811138,
+  "spikes_per_correct": 4596.0,
+  "selectivity": 0.9095464489884066,
+  "coverage_pct": 20.412186379928315,
+  "propagation_ratio": 0.17687378867247505,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.3
+   ],
+   [
+    25,
+    0.46
+   ],
+   [
+    50,
+    0.55
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.65
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.29,
+   "100": 0.43,
+   "250": 0.65,
+   "500": 0.6
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_static",
+  "w_input": 6.3343750000000005
+ },
+ {
+  "topology": "configuration",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.62,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 1.0,
+   "Medium": 0.975,
+   "Hard": 0.875,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 289106.0,
+  "mean_rate_hz": 9.333527037933818,
+  "spikes_per_correct": 4663.0,
+  "selectivity": 0.8990048433591467,
+  "coverage_pct": 20.487455197132615,
+  "propagation_ratio": 0.1687954217348677,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.31
+   ],
+   [
+    25,
+    0.39
+   ],
+   [
+    50,
+    0.45
+   ],
+   [
+    75,
+    0.53
+   ],
+   [
+    100,
+    0.62
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.34,
+   "100": 0.42,
+   "250": 0.62,
+   "500": 0.47
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_static",
+  "w_input": 6.3343750000000005
+ },
+ {
+  "topology": "configuration",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.6,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.95,
+   "Hard": 0.975,
+   "Very hard": 0.9
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 351753.0,
+  "mean_rate_hz": 11.356029055690074,
+  "spikes_per_correct": 5862.55,
+  "selectivity": 0.8831940492264103,
+  "coverage_pct": 24.780465949820787,
+  "propagation_ratio": 0.23064267018503382,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.4
+   ],
+   [
+    25,
+    0.38
+   ],
+   [
+    50,
+    0.57
+   ],
+   [
+    75,
+    0.56
+   ],
+   [
+    100,
+    0.6
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.38,
+   "100": 0.47,
+   "250": 0.6,
+   "500": 0.56
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_static",
+  "w_input": 6.3343750000000005
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.78,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 729537.0,
+  "mean_rate_hz": 23.552445520581113,
+  "spikes_per_correct": 9353.038461538461,
+  "selectivity": 0.9165198938250476,
+  "coverage_pct": 12.017921146953405,
+  "propagation_ratio": 1.296344198880998,
+  "mean_dw": 1.0021755334624722,
+  "weight_drift": 0.019618219979881776,
+  "convergence_curve": [
+   [
+    10,
+    0.51
+   ],
+   [
+    25,
+    0.59
+   ],
+   [
+    50,
+    0.78
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.78
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.32,
+   "50": 0.41,
+   "100": 0.65,
+   "250": 0.78,
+   "500": 0.91
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.37,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.875,
+   "Easy": 0.975,
+   "Medium": 0.875,
+   "Hard": 0.875,
+   "Very hard": 0.45
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 672669.0,
+  "mean_rate_hz": 21.716513317191286,
+  "spikes_per_correct": 18180.243243243243,
+  "selectivity": 0.9266261702405465,
+  "coverage_pct": 11.1836917562724,
+  "propagation_ratio": 1.3154108596278369,
+  "mean_dw": 0.7317241247001891,
+  "weight_drift": 0.0083896693965347,
+  "convergence_curve": [
+   [
+    10,
+    0.35
+   ],
+   [
+    25,
+    0.34
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.39
+   ],
+   [
+    100,
+    0.37
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.23,
+   "50": 0.23,
+   "100": 0.3,
+   "250": 0.37,
+   "500": 0.47
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.69,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.95,
+   "Hard": 0.75,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 682279.0,
+  "mean_rate_hz": 22.02676351896691,
+  "spikes_per_correct": 9888.101449275362,
+  "selectivity": 0.927914163933124,
+  "coverage_pct": 11.71236559139785,
+  "propagation_ratio": 1.2796529165653088,
+  "mean_dw": 0.7790441156257548,
+  "weight_drift": 0.020878380249904863,
+  "convergence_curve": [
+   [
+    10,
+    0.57
+   ],
+   [
+    25,
+    0.59
+   ],
+   [
+    50,
+    0.62
+   ],
+   [
+    75,
+    0.63
+   ],
+   [
+    100,
+    0.69
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.39,
+   "100": 0.52,
+   "250": 0.69,
+   "500": 0.73
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 605352.0,
+  "mean_rate_hz": 19.543244552058113,
+  "spikes_per_correct": 6801.70786516854,
+  "selectivity": 0.9255016861531916,
+  "coverage_pct": 11.167562724014337,
+  "propagation_ratio": 0.7611756839766325,
+  "mean_dw": 0.7223788434590602,
+  "weight_drift": 0.01023866235957586,
+  "convergence_curve": [
+   [
+    10,
+    0.53
+   ],
+   [
+    25,
+    0.74
+   ],
+   [
+    50,
+    0.87
+   ],
+   [
+    75,
+    0.87
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.56,
+   "100": 0.61,
+   "250": 0.89,
+   "500": 0.83
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 698774.0,
+  "mean_rate_hz": 22.55928974979822,
+  "spikes_per_correct": 7851.393258426966,
+  "selectivity": 0.9182361932021081,
+  "coverage_pct": 12.404121863799283,
+  "propagation_ratio": 1.0607302417801738,
+  "mean_dw": 1.0239236909849834,
+  "weight_drift": 0.011338693208762646,
+  "convergence_curve": [
+   [
+    10,
+    0.73
+   ],
+   [
+    25,
+    0.75
+   ],
+   [
+    50,
+    0.8
+   ],
+   [
+    75,
+    0.84
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.47,
+   "100": 0.81,
+   "250": 0.89,
+   "500": 0.93
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.55,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.875,
+   "Medium": 0.875,
+   "Hard": 0.75,
+   "Very hard": 0.675
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 323118.0,
+  "mean_rate_hz": 10.431573849878935,
+  "spikes_per_correct": 5874.8727272727265,
+  "selectivity": 0.9134582637071251,
+  "coverage_pct": 19.13888888888889,
+  "propagation_ratio": 0.09203428314740457,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.33
+   ],
+   [
+    25,
+    0.29
+   ],
+   [
+    50,
+    0.43
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.55
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.45,
+   "100": 0.46,
+   "250": 0.55,
+   "500": 0.57
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_static",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.54,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.925,
+   "Medium": 0.825,
+   "Hard": 0.775,
+   "Very hard": 0.675
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 322378.0,
+  "mean_rate_hz": 10.40768361581921,
+  "spikes_per_correct": 5969.962962962963,
+  "selectivity": 0.9109688432527001,
+  "coverage_pct": 19.266129032258064,
+  "propagation_ratio": 0.09220566407482346,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.33
+   ],
+   [
+    25,
+    0.34
+   ],
+   [
+    50,
+    0.44
+   ],
+   [
+    75,
+    0.48
+   ],
+   [
+    100,
+    0.54
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.41,
+   "100": 0.48,
+   "250": 0.54,
+   "500": 0.53
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_static",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.64,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.925,
+   "Medium": 0.975,
+   "Hard": 0.85,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 324478.0,
+  "mean_rate_hz": 10.4754802259887,
+  "spikes_per_correct": 5069.96875,
+  "selectivity": 0.9128604606812323,
+  "coverage_pct": 19.192652329749105,
+  "propagation_ratio": 0.09144253561219358,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.32
+   ],
+   [
+    25,
+    0.45
+   ],
+   [
+    50,
+    0.54
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.64
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.38,
+   "50": 0.38,
+   "100": 0.38,
+   "250": 0.64,
+   "500": 0.61
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_static",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.45,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.925,
+   "Medium": 0.85,
+   "Hard": 0.8,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 320390.0,
+  "mean_rate_hz": 10.343502824858756,
+  "spikes_per_correct": 7119.777777777777,
+  "selectivity": 0.9131420872225665,
+  "coverage_pct": 19.168458781362006,
+  "propagation_ratio": 0.09156666666666666,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.36
+   ],
+   [
+    25,
+    0.35
+   ],
+   [
+    50,
+    0.38
+   ],
+   [
+    75,
+    0.44
+   ],
+   [
+    100,
+    0.45
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.36,
+   "100": 0.41,
+   "250": 0.45,
+   "500": 0.45
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_static",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.65,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.95,
+   "Medium": 0.975,
+   "Hard": 0.875,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 317631.0,
+  "mean_rate_hz": 10.254430992736077,
+  "spikes_per_correct": 4886.630769230769,
+  "selectivity": 0.9129508079783172,
+  "coverage_pct": 19.008960573476703,
+  "propagation_ratio": 0.08882361798575454,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.34
+   ],
+   [
+    25,
+    0.45
+   ],
+   [
+    50,
+    0.56
+   ],
+   [
+    75,
+    0.62
+   ],
+   [
+    100,
+    0.65
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.34,
+   "100": 0.42,
+   "250": 0.65,
+   "500": 0.61
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_static",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 530999.0,
+  "mean_rate_hz": 17.142824858757063,
+  "spikes_per_correct": 5899.988888888889,
+  "selectivity": 0.9547158943497704,
+  "coverage_pct": 5.232974910394265,
+  "propagation_ratio": 0.46260699749853285,
+  "mean_dw": 0.531125432313157,
+  "weight_drift": 0.012241631966236847,
+  "convergence_curve": [
+   [
+    10,
+    0.58
+   ],
+   [
+    25,
+    0.79
+   ],
+   [
+    50,
+    0.9
+   ],
+   [
+    75,
+    0.89
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.63,
+   "100": 0.68,
+   "250": 0.9,
+   "500": 0.89
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_stdp",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 538380.0,
+  "mean_rate_hz": 17.381113801452784,
+  "spikes_per_correct": 6049.213483146067,
+  "selectivity": 0.954092873569198,
+  "coverage_pct": 5.340501792114695,
+  "propagation_ratio": 0.4985440964131341,
+  "mean_dw": 0.5085134048458488,
+  "weight_drift": 0.007062790860456196,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.73
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.92
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.36,
+   "50": 0.52,
+   "100": 0.7,
+   "250": 0.89,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_stdp",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.8,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 643368.0,
+  "mean_rate_hz": 20.77055690072639,
+  "spikes_per_correct": 8042.1,
+  "selectivity": 0.9342420564037722,
+  "coverage_pct": 8.703405017921147,
+  "propagation_ratio": 0.7069518246756933,
+  "mean_dw": 0.7280406981050126,
+  "weight_drift": 0.016811388344162022,
+  "convergence_curve": [
+   [
+    10,
+    0.48
+   ],
+   [
+    25,
+    0.63
+   ],
+   [
+    50,
+    0.72
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.8
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.53,
+   "100": 0.65,
+   "250": 0.8,
+   "500": 0.89
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_stdp",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.93,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 624281.0,
+  "mean_rate_hz": 20.154350282485876,
+  "spikes_per_correct": 6712.698924731183,
+  "selectivity": 0.9459234870794252,
+  "coverage_pct": 6.367383512544803,
+  "propagation_ratio": 0.6110660043696992,
+  "mean_dw": 0.5946528282705931,
+  "weight_drift": 0.01568547335024555,
+  "convergence_curve": [
+   [
+    10,
+    0.59
+   ],
+   [
+    25,
+    0.68
+   ],
+   [
+    50,
+    0.88
+   ],
+   [
+    75,
+    0.94
+   ],
+   [
+    100,
+    0.93
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.48,
+   "50": 0.52,
+   "100": 0.68,
+   "250": 0.93,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_stdp",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.88,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 603842.0,
+  "mean_rate_hz": 19.49449556093624,
+  "spikes_per_correct": 6861.840909090909,
+  "selectivity": 0.9485184145533885,
+  "coverage_pct": 6.292114695340501,
+  "propagation_ratio": 0.582830573022464,
+  "mean_dw": 0.6381264023601864,
+  "weight_drift": 0.02091217104013007,
+  "convergence_curve": [
+   [
+    10,
+    0.53
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.89
+   ],
+   [
+    100,
+    0.88
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.43,
+   "50": 0.59,
+   "100": 0.73,
+   "250": 0.88,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_stdp",
+  "map_mode": "subtype"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.74,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 431536.0,
+  "mean_rate_hz": 13.931751412429378,
+  "spikes_per_correct": 5831.5675675675675,
+  "selectivity": 0.9049445539882025,
+  "coverage_pct": 20.78942652329749,
+  "propagation_ratio": 0.16065786644625696,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.35
+   ],
+   [
+    25,
+    0.54
+   ],
+   [
+    50,
+    0.68
+   ],
+   [
+    75,
+    0.76
+   ],
+   [
+    100,
+    0.74
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.49,
+   "50": 0.6,
+   "100": 0.71,
+   "250": 0.74,
+   "500": 0.81
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_static",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.72,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.19,
+  "test_spikes": 426895.0,
+  "mean_rate_hz": 13.781920903954802,
+  "spikes_per_correct": 5929.097222222223,
+  "selectivity": 0.9037708075830092,
+  "coverage_pct": 21.102150537634408,
+  "propagation_ratio": 0.16017317321399774,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.6
+   ],
+   [
+    25,
+    0.57
+   ],
+   [
+    50,
+    0.68
+   ],
+   [
+    75,
+    0.71
+   ],
+   [
+    100,
+    0.72
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.48,
+   "50": 0.53,
+   "100": 0.6,
+   "250": 0.72,
+   "500": 0.77
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_static",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.8,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 427788.0,
+  "mean_rate_hz": 13.810750605326877,
+  "spikes_per_correct": 5347.35,
+  "selectivity": 0.9041377560076955,
+  "coverage_pct": 20.829749103942653,
+  "propagation_ratio": 0.15910900340086476,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.41
+   ],
+   [
+    25,
+    0.57
+   ],
+   [
+    50,
+    0.67
+   ],
+   [
+    75,
+    0.71
+   ],
+   [
+    100,
+    0.8
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.5,
+   "100": 0.65,
+   "250": 0.8,
+   "500": 0.8
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_static",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.81,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.975,
+   "Hard": 0.975,
+   "Very hard": 0.9
+  },
+  "input_accuracy": 0.26,
+  "test_spikes": 425343.0,
+  "mean_rate_hz": 13.73181598062954,
+  "spikes_per_correct": 5251.148148148148,
+  "selectivity": 0.90561745645865,
+  "coverage_pct": 20.807347670250895,
+  "propagation_ratio": 0.15885616185824147,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.42
+   ],
+   [
+    25,
+    0.54
+   ],
+   [
+    50,
+    0.66
+   ],
+   [
+    75,
+    0.81
+   ],
+   [
+    100,
+    0.81
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.58,
+   "100": 0.65,
+   "250": 0.81,
+   "500": 0.85
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_static",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.72,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.925
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 424327.0,
+  "mean_rate_hz": 13.699015334947537,
+  "spikes_per_correct": 5893.430555555556,
+  "selectivity": 0.9043987608120758,
+  "coverage_pct": 20.90232974910394,
+  "propagation_ratio": 0.15696057233003086,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.45
+   ],
+   [
+    25,
+    0.6
+   ],
+   [
+    50,
+    0.69
+   ],
+   [
+    75,
+    0.73
+   ],
+   [
+    100,
+    0.72
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.5,
+   "50": 0.52,
+   "100": 0.59,
+   "250": 0.72,
+   "500": 0.87
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_static",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.96,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 702311.0,
+  "mean_rate_hz": 22.673478611783697,
+  "spikes_per_correct": 7315.739583333333,
+  "selectivity": 0.9402710286053155,
+  "coverage_pct": 6.962365591397849,
+  "propagation_ratio": 0.879596519133108,
+  "mean_dw": 0.7684753082302165,
+  "weight_drift": 0.03016988002376194,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.74
+   ],
+   [
+    50,
+    0.85
+   ],
+   [
+    75,
+    0.92
+   ],
+   [
+    100,
+    0.96
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.43,
+   "50": 0.57,
+   "100": 0.78,
+   "250": 0.96,
+   "500": 0.99
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_stdp",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.85,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.975,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.19,
+  "test_spikes": 527730.0,
+  "mean_rate_hz": 17.037288135593222,
+  "spikes_per_correct": 6208.588235294118,
+  "selectivity": 0.9550932193846049,
+  "coverage_pct": 5.413082437275985,
+  "propagation_ratio": 0.4898570649492185,
+  "mean_dw": 0.5461155772924209,
+  "weight_drift": 0.01539320698963324,
+  "convergence_curve": [
+   [
+    10,
+    0.52
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.79
+   ],
+   [
+    75,
+    0.84
+   ],
+   [
+    100,
+    0.85
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.59,
+   "100": 0.7,
+   "250": 0.85,
+   "500": 0.88
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_stdp",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 634745.0,
+  "mean_rate_hz": 20.492171105730428,
+  "spikes_per_correct": 7131.966292134832,
+  "selectivity": 0.9454882527427005,
+  "coverage_pct": 7.085125448028673,
+  "propagation_ratio": 0.8184287763939286,
+  "mean_dw": 0.4848953754329133,
+  "weight_drift": 0.008326974705641322,
+  "convergence_curve": [
+   [
+    10,
+    0.56
+   ],
+   [
+    25,
+    0.67
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.88
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.52,
+   "50": 0.57,
+   "100": 0.75,
+   "250": 0.89,
+   "500": 0.91
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_stdp",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.89,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.26,
+  "test_spikes": 538395.0,
+  "mean_rate_hz": 17.381598062953994,
+  "spikes_per_correct": 6049.38202247191,
+  "selectivity": 0.9567938377965816,
+  "coverage_pct": 5.197132616487456,
+  "propagation_ratio": 0.46139329092997067,
+  "mean_dw": 0.5305340651675438,
+  "weight_drift": 0.015370192349295172,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.72
+   ],
+   [
+    50,
+    0.78
+   ],
+   [
+    75,
+    0.87
+   ],
+   [
+    100,
+    0.89
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.48,
+   "50": 0.55,
+   "100": 0.75,
+   "250": 0.89,
+   "500": 0.92
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_stdp",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.91,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 762591.0,
+  "mean_rate_hz": 24.61956416464891,
+  "spikes_per_correct": 8380.12087912088,
+  "selectivity": 0.9294247313124164,
+  "coverage_pct": 7.947132616487456,
+  "propagation_ratio": 0.9887233639625094,
+  "mean_dw": 0.7265158603397291,
+  "weight_drift": 0.017271585381360866,
+  "convergence_curve": [
+   [
+    10,
+    0.75
+   ],
+   [
+    25,
+    0.68
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.88
+   ],
+   [
+    100,
+    0.91
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.67,
+   "100": 0.8,
+   "250": 0.91,
+   "500": 0.93
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_subtype_inverted_stdp",
+  "map_mode": "subtype_inverted"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.65,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.85
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 355809.0,
+  "mean_rate_hz": 11.486973365617434,
+  "spikes_per_correct": 5473.984615384616,
+  "selectivity": 0.9140972926471743,
+  "coverage_pct": 19.131720430107528,
+  "propagation_ratio": 0.11273587699853448,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.45
+   ],
+   [
+    25,
+    0.41
+   ],
+   [
+    50,
+    0.51
+   ],
+   [
+    75,
+    0.62
+   ],
+   [
+    100,
+    0.65
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.46,
+   "100": 0.51,
+   "250": 0.65,
+   "500": 0.74
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_static",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.63,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.975,
+   "Medium": 1.0,
+   "Hard": 0.925,
+   "Very hard": 0.725
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 352678.0,
+  "mean_rate_hz": 11.38589184826473,
+  "spikes_per_correct": 5598.063492063492,
+  "selectivity": 0.912743753956609,
+  "coverage_pct": 19.22222222222222,
+  "propagation_ratio": 0.1118509010536455,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.58
+   ],
+   [
+    50,
+    0.59
+   ],
+   [
+    75,
+    0.64
+   ],
+   [
+    100,
+    0.63
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.49,
+   "50": 0.5,
+   "100": 0.6,
+   "250": 0.63,
+   "500": 0.71
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_static",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.74,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 355585.0,
+  "mean_rate_hz": 11.479741727199356,
+  "spikes_per_correct": 4805.2027027027025,
+  "selectivity": 0.9125907579481684,
+  "coverage_pct": 19.238351254480285,
+  "propagation_ratio": 0.11129586833616699,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.38
+   ],
+   [
+    25,
+    0.46
+   ],
+   [
+    50,
+    0.59
+   ],
+   [
+    75,
+    0.67
+   ],
+   [
+    100,
+    0.74
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.49,
+   "100": 0.61,
+   "250": 0.74,
+   "500": 0.74
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_static",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.7,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.825
+  },
+  "input_accuracy": 0.18,
+  "test_spikes": 351721.0,
+  "mean_rate_hz": 11.35499596448749,
+  "spikes_per_correct": 5024.585714285714,
+  "selectivity": 0.9144946924391759,
+  "coverage_pct": 19.13978494623656,
+  "propagation_ratio": 0.11140024994528988,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.4
+   ],
+   [
+    25,
+    0.54
+   ],
+   [
+    50,
+    0.47
+   ],
+   [
+    75,
+    0.68
+   ],
+   [
+    100,
+    0.7
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.53,
+   "100": 0.6,
+   "250": 0.7,
+   "500": 0.66
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_static",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.66,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.975,
+   "Medium": 0.975,
+   "Hard": 0.925,
+   "Very hard": 0.8
+  },
+  "input_accuracy": 0.19,
+  "test_spikes": 349881.0,
+  "mean_rate_hz": 11.295593220338983,
+  "spikes_per_correct": 5301.227272727273,
+  "selectivity": 0.9121218734886435,
+  "coverage_pct": 19.416666666666668,
+  "propagation_ratio": 0.10982701909179056,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.39
+   ],
+   [
+    25,
+    0.52
+   ],
+   [
+    50,
+    0.61
+   ],
+   [
+    75,
+    0.69
+   ],
+   [
+    100,
+    0.66
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.49,
+   "50": 0.38,
+   "100": 0.42,
+   "250": 0.66,
+   "500": 0.72
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_static",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.91,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 652635.0,
+  "mean_rate_hz": 21.069733656174336,
+  "spikes_per_correct": 7171.813186813187,
+  "selectivity": 0.9429599345265204,
+  "coverage_pct": 6.701612903225807,
+  "propagation_ratio": 0.725492694640821,
+  "mean_dw": 0.7021654905337258,
+  "weight_drift": 0.022888665488335985,
+  "convergence_curve": [
+   [
+    10,
+    0.58
+   ],
+   [
+    25,
+    0.71
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.88
+   ],
+   [
+    100,
+    0.91
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.6,
+   "100": 0.63,
+   "250": 0.91,
+   "500": 0.92
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_stdp",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.88,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 553270.0,
+  "mean_rate_hz": 17.86182405165456,
+  "spikes_per_correct": 6287.159090909091,
+  "selectivity": 0.9532053724391725,
+  "coverage_pct": 5.42741935483871,
+  "propagation_ratio": 0.5295982106945625,
+  "mean_dw": 0.5503785526828333,
+  "weight_drift": 0.01433044917189983,
+  "convergence_curve": [
+   [
+    10,
+    0.63
+   ],
+   [
+    25,
+    0.69
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.83
+   ],
+   [
+    100,
+    0.88
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.37,
+   "50": 0.57,
+   "100": 0.67,
+   "250": 0.88,
+   "500": 0.82
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_stdp",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 648531.0,
+  "mean_rate_hz": 20.937239709443098,
+  "spikes_per_correct": 7205.9,
+  "selectivity": 0.9410935200626466,
+  "coverage_pct": 6.955197132616488,
+  "propagation_ratio": 0.7314239895591546,
+  "mean_dw": 0.7026886652222839,
+  "weight_drift": 0.011341824257415943,
+  "convergence_curve": [
+   [
+    10,
+    0.58
+   ],
+   [
+    25,
+    0.65
+   ],
+   [
+    50,
+    0.76
+   ],
+   [
+    75,
+    0.89
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.58,
+   "100": 0.74,
+   "250": 0.9,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_stdp",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.87,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.18,
+  "test_spikes": 542343.0,
+  "mean_rate_hz": 17.50905569007264,
+  "spikes_per_correct": 6233.827586206897,
+  "selectivity": 0.9537214132252582,
+  "coverage_pct": 5.590501792114695,
+  "propagation_ratio": 0.4614875229017192,
+  "mean_dw": 0.5020688740951494,
+  "weight_drift": 0.005260314474912715,
+  "convergence_curve": [
+   [
+    10,
+    0.51
+   ],
+   [
+    25,
+    0.65
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.87
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.62,
+   "100": 0.63,
+   "250": 0.87,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_stdp",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.19,
+  "test_spikes": 644231.0,
+  "mean_rate_hz": 20.798418079096045,
+  "spikes_per_correct": 7158.122222222222,
+  "selectivity": 0.9444478448017732,
+  "coverage_pct": 6.381720430107527,
+  "propagation_ratio": 0.6684309923723349,
+  "mean_dw": 0.6531349751129609,
+  "weight_drift": 0.012676695705676679,
+  "convergence_curve": [
+   [
+    10,
+    0.75
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.82
+   ],
+   [
+    75,
+    0.9
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.31,
+   "50": 0.58,
+   "100": 0.73,
+   "250": 0.9,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_root_id_stdp",
+  "map_mode": "root_id"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 0,
+  "accuracy": 0.7,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.925
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 357017.0,
+  "mean_rate_hz": 11.525972558514932,
+  "spikes_per_correct": 5100.242857142857,
+  "selectivity": 0.9091108690884266,
+  "coverage_pct": 20.6173835125448,
+  "propagation_ratio": 0.11296497589733859,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.32
+   ],
+   [
+    25,
+    0.43
+   ],
+   [
+    50,
+    0.48
+   ],
+   [
+    75,
+    0.65
+   ],
+   [
+    100,
+    0.7
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.44,
+   "50": 0.59,
+   "100": 0.61,
+   "250": 0.7,
+   "500": 0.79
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_static",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 1,
+  "accuracy": 0.73,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 0.85
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 394294.0,
+  "mean_rate_hz": 12.729426957223568,
+  "spikes_per_correct": 5401.287671232877,
+  "selectivity": 0.8989735598140969,
+  "coverage_pct": 22.13351254480287,
+  "propagation_ratio": 0.13991090619190732,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.44
+   ],
+   [
+    25,
+    0.6
+   ],
+   [
+    50,
+    0.72
+   ],
+   [
+    75,
+    0.72
+   ],
+   [
+    100,
+    0.73
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.41,
+   "100": 0.58,
+   "250": 0.73,
+   "500": 0.73
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_static",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 2,
+  "accuracy": 0.74,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.975,
+   "Hard": 0.95,
+   "Very hard": 0.8
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 384770.0,
+  "mean_rate_hz": 12.421953188054884,
+  "spikes_per_correct": 5199.594594594595,
+  "selectivity": 0.903510024386708,
+  "coverage_pct": 21.169354838709676,
+  "propagation_ratio": 0.13055303324167536,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.36
+   ],
+   [
+    25,
+    0.54
+   ],
+   [
+    50,
+    0.56
+   ],
+   [
+    75,
+    0.66
+   ],
+   [
+    100,
+    0.74
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.46,
+   "50": 0.41,
+   "100": 0.58,
+   "250": 0.74,
+   "500": 0.68
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_static",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 3,
+  "accuracy": 0.81,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 0.9
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 385336.0,
+  "mean_rate_hz": 12.440225988700565,
+  "spikes_per_correct": 4757.234567901234,
+  "selectivity": 0.9079823352402293,
+  "coverage_pct": 20.731182795698924,
+  "propagation_ratio": 0.132989440166382,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.41
+   ],
+   [
+    25,
+    0.53
+   ],
+   [
+    50,
+    0.59
+   ],
+   [
+    75,
+    0.77
+   ],
+   [
+    100,
+    0.81
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.51,
+   "50": 0.57,
+   "100": 0.59,
+   "250": 0.81,
+   "500": 0.73
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_static",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": false,
+  "wta": false,
+  "seed": 4,
+  "accuracy": 0.7,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.925,
+   "Very hard": 0.85
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 408845.0,
+  "mean_rate_hz": 13.199192897497984,
+  "spikes_per_correct": 5840.642857142857,
+  "selectivity": 0.9005114785177004,
+  "coverage_pct": 21.8584229390681,
+  "propagation_ratio": 0.1467294622135337,
+  "mean_dw": null,
+  "weight_drift": null,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.56
+   ],
+   [
+    50,
+    0.65
+   ],
+   [
+    75,
+    0.67
+   ],
+   [
+    100,
+    0.7
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.45,
+   "50": 0.51,
+   "100": 0.57,
+   "250": 0.7,
+   "500": 0.79
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_static",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 0,
+  "accuracy": 0.91,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 631291.0,
+  "mean_rate_hz": 20.380661824051653,
+  "spikes_per_correct": 6937.263736263736,
+  "selectivity": 0.9479119078725075,
+  "coverage_pct": 6.3163082437275975,
+  "propagation_ratio": 0.6572432685989719,
+  "mean_dw": 0.5969380073183209,
+  "weight_drift": 0.033344143149152,
+  "convergence_curve": [
+   [
+    10,
+    0.54
+   ],
+   [
+    25,
+    0.73
+   ],
+   [
+    50,
+    0.91
+   ],
+   [
+    75,
+    0.87
+   ],
+   [
+    100,
+    0.91
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.37,
+   "50": 0.53,
+   "100": 0.67,
+   "250": 0.91,
+   "500": 0.91
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_stdp",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 1,
+  "accuracy": 0.88,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.21,
+  "test_spikes": 532476.0,
+  "mean_rate_hz": 17.19050847457627,
+  "spikes_per_correct": 6050.863636363636,
+  "selectivity": 0.9538907660116764,
+  "coverage_pct": 5.5331541218638,
+  "propagation_ratio": 0.5091714472153658,
+  "mean_dw": 0.6016615978294134,
+  "weight_drift": 0.005999295215498444,
+  "convergence_curve": [
+   [
+    10,
+    0.59
+   ],
+   [
+    25,
+    0.66
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.87
+   ],
+   [
+    100,
+    0.88
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.51,
+   "100": 0.76,
+   "250": 0.88,
+   "500": 0.84
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_stdp",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 2,
+  "accuracy": 0.92,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 694541.0,
+  "mean_rate_hz": 22.42263115415658,
+  "spikes_per_correct": 7549.358695652174,
+  "selectivity": 0.9367018296608467,
+  "coverage_pct": 8.046594982078853,
+  "propagation_ratio": 0.8859702831085039,
+  "mean_dw": 0.6295623733966853,
+  "weight_drift": 0.018858004847032,
+  "convergence_curve": [
+   [
+    10,
+    0.44
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.84
+   ],
+   [
+    75,
+    0.91
+   ],
+   [
+    100,
+    0.92
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.56,
+   "100": 0.79,
+   "250": 0.92,
+   "500": 0.95
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_stdp",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 3,
+  "accuracy": 0.93,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.24,
+  "test_spikes": 527774.0,
+  "mean_rate_hz": 17.038708635996773,
+  "spikes_per_correct": 5674.989247311828,
+  "selectivity": 0.9566381370574226,
+  "coverage_pct": 5.295698924731183,
+  "propagation_ratio": 0.42948284737727394,
+  "mean_dw": 0.5307349343681327,
+  "weight_drift": 0.01789926716027832,
+  "convergence_curve": [
+   [
+    10,
+    0.52
+   ],
+   [
+    25,
+    0.66
+   ],
+   [
+    50,
+    0.85
+   ],
+   [
+    75,
+    0.92
+   ],
+   [
+    100,
+    0.93
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.47,
+   "100": 0.72,
+   "250": 0.93,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_stdp",
+  "map_mode": "random"
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 4,
+  "accuracy": 0.96,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.975,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 787888.0,
+  "mean_rate_hz": 25.436255044390638,
+  "spikes_per_correct": 8207.166666666666,
+  "selectivity": 0.9279769113564846,
+  "coverage_pct": 8.813620071684587,
+  "propagation_ratio": 0.9877103783860798,
+  "mean_dw": 0.7930529983095228,
+  "weight_drift": 0.024351202651210848,
+  "convergence_curve": [
+   [
+    10,
+    0.62
+   ],
+   [
+    25,
+    0.87
+   ],
+   [
+    50,
+    0.94
+   ],
+   [
+    75,
+    0.95
+   ],
+   [
+    100,
+    0.96
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.67,
+   "100": 0.83,
+   "250": 0.96,
+   "500": 1.0
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "mapping_random_stdp",
+  "map_mode": "random"
+ }
+]

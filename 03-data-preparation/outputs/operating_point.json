@@ -1,0 +1,62 @@
+{
+  "target_hz": 10.0,
+  "wta_inh": 0.6,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "arms": {
+    "connectome_static": {
+      "topology": "connectome",
+      "stdp": false,
+      "w_input": 10.075000000000001,
+      "rate": 10.411622276029055,
+      "rate_sd": 0.4585850222023362,
+      "converged": true
+    },
+    "connectome_stdp": {
+      "topology": "connectome",
+      "stdp": true,
+      "w_input": 17.55625,
+      "rate": 10.064051654560128,
+      "rate_sd": 0.22444593656555087,
+      "converged": true
+    },
+    "er_static": {
+      "topology": "er",
+      "stdp": false,
+      "w_input": 5.0875,
+      "rate": 9.83050847457627,
+      "rate_sd": 1.580935431214531,
+      "converged": true
+    },
+    "er_stdp": {
+      "topology": "er",
+      "stdp": true,
+      "w_input": 15.0625,
+      "rate": 10.161033091202581,
+      "rate_sd": 0.6875560612576278,
+      "converged": true
+    },
+    "configuration_static": {
+      "topology": "configuration",
+      "stdp": false,
+      "w_input": 6.3343750000000005,
+      "rate": 10.142566585956416,
+      "rate_sd": 0.910153647214623,
+      "converged": true
+    },
+    "configuration_stdp": {
+      "topology": "configuration",
+      "stdp": true,
+      "w_input": 15.0625,
+      "rate": 10.160645682001615,
+      "rate_sd": 0.6900729103360508,
+      "converged": true
+    }
+  },
+  "seconds": 135.92364382743835
+}

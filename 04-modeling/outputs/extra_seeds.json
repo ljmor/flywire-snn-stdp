@@ -1,0 +1,1742 @@
+[
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 5,
+  "accuracy": 0.87,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.3,
+  "test_spikes": 569749.0,
+  "mean_rate_hz": 18.393833736884584,
+  "spikes_per_correct": 6548.83908045977,
+  "selectivity": 0.9459458719266018,
+  "coverage_pct": 6.861111111111111,
+  "propagation_ratio": 0.5181928506734648,
+  "mean_dw": 0.545723383387265,
+  "weight_drift": 0.011918518341006731,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.68
+   ],
+   [
+    50,
+    0.79
+   ],
+   [
+    75,
+    0.85
+   ],
+   [
+    100,
+    0.87
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.37,
+   "50": 0.5,
+   "100": 0.71,
+   "250": 0.87,
+   "500": 0.83
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 6,
+  "accuracy": 0.84,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.925
+  },
+  "input_accuracy": 0.14,
+  "test_spikes": 430420.0,
+  "mean_rate_hz": 13.895722356739306,
+  "spikes_per_correct": 5124.047619047619,
+  "selectivity": 0.9657258618388269,
+  "coverage_pct": 4.341397849462366,
+  "propagation_ratio": 0.2698880145500098,
+  "mean_dw": 0.37828393897772933,
+  "weight_drift": 0.006483242444635356,
+  "convergence_curve": [
+   [
+    10,
+    0.65
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.78
+   ],
+   [
+    75,
+    0.75
+   ],
+   [
+    100,
+    0.84
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.41,
+   "50": 0.48,
+   "100": 0.74,
+   "250": 0.84,
+   "500": 0.87
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 7,
+  "accuracy": 0.85,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.925,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 470385.0,
+  "mean_rate_hz": 15.185956416464892,
+  "spikes_per_correct": 5533.941176470588,
+  "selectivity": 0.9587885389028433,
+  "coverage_pct": 5.077956989247312,
+  "propagation_ratio": 0.3343090106857529,
+  "mean_dw": 0.5000381199855886,
+  "weight_drift": 0.005558174948015948,
+  "convergence_curve": [
+   [
+    10,
+    0.62
+   ],
+   [
+    25,
+    0.72
+   ],
+   [
+    50,
+    0.78
+   ],
+   [
+    75,
+    0.82
+   ],
+   [
+    100,
+    0.85
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.41,
+   "50": 0.59,
+   "100": 0.68,
+   "250": 0.85,
+   "500": 0.84
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 8,
+  "accuracy": 0.87,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.95,
+   "Very hard": 0.925
+  },
+  "input_accuracy": 0.16,
+  "test_spikes": 530886.0,
+  "mean_rate_hz": 17.13917675544794,
+  "spikes_per_correct": 6102.137931034483,
+  "selectivity": 0.957979745617157,
+  "coverage_pct": 5.018817204301075,
+  "propagation_ratio": 0.44165649449221883,
+  "mean_dw": 0.46347328325240444,
+  "weight_drift": 0.012516291196410291,
+  "convergence_curve": [
+   [
+    10,
+    0.52
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.87
+   ],
+   [
+    75,
+    0.82
+   ],
+   [
+    100,
+    0.87
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.43,
+   "50": 0.55,
+   "100": 0.69,
+   "250": 0.87,
+   "500": 0.87
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 9,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.975
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 574788.0,
+  "mean_rate_hz": 18.556513317191285,
+  "spikes_per_correct": 6386.533333333334,
+  "selectivity": 0.9475363798636749,
+  "coverage_pct": 6.817204301075269,
+  "propagation_ratio": 0.5447240048508101,
+  "mean_dw": 0.6546777731916487,
+  "weight_drift": 0.026019910878490062,
+  "convergence_curve": [
+   [
+    10,
+    0.55
+   ],
+   [
+    25,
+    0.69
+   ],
+   [
+    50,
+    0.81
+   ],
+   [
+    75,
+    0.91
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.41,
+   "50": 0.61,
+   "100": 0.79,
+   "250": 0.9,
+   "500": 0.95
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 10,
+  "accuracy": 0.85,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.95,
+   "Medium": 0.975,
+   "Hard": 1.0,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 587082.0,
+  "mean_rate_hz": 18.953414043583535,
+  "spikes_per_correct": 6906.84705882353,
+  "selectivity": 0.948629118240026,
+  "coverage_pct": 6.124551971326164,
+  "propagation_ratio": 0.584606682543119,
+  "mean_dw": 0.6115249460038225,
+  "weight_drift": 0.008032093025645575,
+  "convergence_curve": [
+   [
+    10,
+    0.45
+   ],
+   [
+    25,
+    0.73
+   ],
+   [
+    50,
+    0.85
+   ],
+   [
+    75,
+    0.88
+   ],
+   [
+    100,
+    0.85
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.47,
+   "50": 0.55,
+   "100": 0.71,
+   "250": 0.85,
+   "500": 0.94
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 11,
+  "accuracy": 0.9,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 0.95
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 646156.0,
+  "mean_rate_hz": 20.860564971751415,
+  "spikes_per_correct": 7179.511111111111,
+  "selectivity": 0.9439669767693144,
+  "coverage_pct": 7.093189964157706,
+  "propagation_ratio": 0.6913349899018064,
+  "mean_dw": 0.6165278337561274,
+  "weight_drift": 0.013692129602325277,
+  "convergence_curve": [
+   [
+    10,
+    0.57
+   ],
+   [
+    25,
+    0.61
+   ],
+   [
+    50,
+    0.77
+   ],
+   [
+    75,
+    0.9
+   ],
+   [
+    100,
+    0.9
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.47,
+   "50": 0.49,
+   "100": 0.66,
+   "250": 0.9,
+   "500": 0.95
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 12,
+  "accuracy": 0.95,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 576879.0,
+  "mean_rate_hz": 18.624019370460047,
+  "spikes_per_correct": 6072.41052631579,
+  "selectivity": 0.9490344066419238,
+  "coverage_pct": 6.042114695340502,
+  "propagation_ratio": 0.5212667955686344,
+  "mean_dw": 0.5308119149005602,
+  "weight_drift": 0.014593576148301358,
+  "convergence_curve": [
+   [
+    10,
+    0.64
+   ],
+   [
+    25,
+    0.86
+   ],
+   [
+    50,
+    0.94
+   ],
+   [
+    75,
+    0.94
+   ],
+   [
+    100,
+    0.95
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.37,
+   "50": 0.56,
+   "100": 0.87,
+   "250": 0.95,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 13,
+  "accuracy": 0.87,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.925,
+   "Very hard": 0.875
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 468314.0,
+  "mean_rate_hz": 15.119096045197741,
+  "spikes_per_correct": 5382.919540229885,
+  "selectivity": 0.9612859270826523,
+  "coverage_pct": 4.379928315412187,
+  "propagation_ratio": 0.3559294868059909,
+  "mean_dw": 0.46226246693140427,
+  "weight_drift": 0.002553830105591633,
+  "convergence_curve": [
+   [
+    10,
+    0.47
+   ],
+   [
+    25,
+    0.68
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.85
+   ],
+   [
+    100,
+    0.87
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.61,
+   "100": 0.77,
+   "250": 0.87,
+   "500": 0.85
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "connectome",
+  "stdp": true,
+  "wta": true,
+  "seed": 14,
+  "accuracy": 0.83,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 445022.0,
+  "mean_rate_hz": 14.367134786117838,
+  "spikes_per_correct": 5361.710843373494,
+  "selectivity": 0.9671797568474265,
+  "coverage_pct": 4.07437275985663,
+  "propagation_ratio": 0.3091502197186124,
+  "mean_dw": 0.3794563553594824,
+  "weight_drift": 0.011271315269694037,
+  "convergence_curve": [
+   [
+    10,
+    0.4
+   ],
+   [
+    25,
+    0.6
+   ],
+   [
+    50,
+    0.7
+   ],
+   [
+    75,
+    0.8
+   ],
+   [
+    100,
+    0.83
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.48,
+   "50": 0.45,
+   "100": 0.69,
+   "250": 0.83,
+   "500": 0.8
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "connectome_stdp",
+  "w_input": 17.55625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 5,
+  "accuracy": 0.87,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.3,
+  "test_spikes": 693888.0,
+  "mean_rate_hz": 22.401549636803875,
+  "spikes_per_correct": 7975.724137931034,
+  "selectivity": 0.9213705444340253,
+  "coverage_pct": 11.444444444444445,
+  "propagation_ratio": 0.9406382938484978,
+  "mean_dw": 0.8944815432672758,
+  "weight_drift": 0.008302692417892768,
+  "convergence_curve": [
+   [
+    10,
+    0.66
+   ],
+   [
+    25,
+    0.64
+   ],
+   [
+    50,
+    0.81
+   ],
+   [
+    75,
+    0.83
+   ],
+   [
+    100,
+    0.87
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.38,
+   "50": 0.51,
+   "100": 0.82,
+   "250": 0.87,
+   "500": 0.88
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 6,
+  "accuracy": 0.86,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.14,
+  "test_spikes": 745600.0,
+  "mean_rate_hz": 24.07102502017756,
+  "spikes_per_correct": 8669.767441860466,
+  "selectivity": 0.9251207610870028,
+  "coverage_pct": 11.200716845878135,
+  "propagation_ratio": 1.3041311664358897,
+  "mean_dw": 1.0012366729105469,
+  "weight_drift": 0.03049523995167226,
+  "convergence_curve": [
+   [
+    10,
+    0.49
+   ],
+   [
+    25,
+    0.7
+   ],
+   [
+    50,
+    0.79
+   ],
+   [
+    75,
+    0.82
+   ],
+   [
+    100,
+    0.86
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.39,
+   "50": 0.5,
+   "100": 0.79,
+   "250": 0.86,
+   "500": 0.88
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 7,
+  "accuracy": 0.93,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 672394.0,
+  "mean_rate_hz": 21.707635189669087,
+  "spikes_per_correct": 7230.043010752688,
+  "selectivity": 0.9191721391664346,
+  "coverage_pct": 12.46594982078853,
+  "propagation_ratio": 1.0371620671118638,
+  "mean_dw": 0.995179025373035,
+  "weight_drift": 0.018678491328992082,
+  "convergence_curve": [
+   [
+    10,
+    0.53
+   ],
+   [
+    25,
+    0.55
+   ],
+   [
+    50,
+    0.83
+   ],
+   [
+    75,
+    0.87
+   ],
+   [
+    100,
+    0.93
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.47,
+   "50": 0.52,
+   "100": 0.8,
+   "250": 0.93,
+   "500": 0.92
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 8,
+  "accuracy": 0.85,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.975,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.16,
+  "test_spikes": 616519.0,
+  "mean_rate_hz": 19.9037610976594,
+  "spikes_per_correct": 7253.164705882353,
+  "selectivity": 0.9269660559099775,
+  "coverage_pct": 10.947132616487455,
+  "propagation_ratio": 0.8555141816252375,
+  "mean_dw": 0.9801813688259039,
+  "weight_drift": 0.01362671325181114,
+  "convergence_curve": [
+   [
+    10,
+    0.64
+   ],
+   [
+    25,
+    0.67
+   ],
+   [
+    50,
+    0.71
+   ],
+   [
+    75,
+    0.81
+   ],
+   [
+    100,
+    0.85
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.36,
+   "50": 0.54,
+   "100": 0.73,
+   "250": 0.85,
+   "500": 0.77
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 9,
+  "accuracy": 0.79,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 652466.0,
+  "mean_rate_hz": 21.064277643260695,
+  "spikes_per_correct": 8259.06329113924,
+  "selectivity": 0.917403179722628,
+  "coverage_pct": 11.652329749103943,
+  "propagation_ratio": 0.9508032310101842,
+  "mean_dw": 0.9027702991679888,
+  "weight_drift": 0.016169572645343244,
+  "convergence_curve": [
+   [
+    10,
+    0.63
+   ],
+   [
+    25,
+    0.77
+   ],
+   [
+    50,
+    0.78
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.79
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.41,
+   "50": 0.54,
+   "100": 0.73,
+   "250": 0.79,
+   "500": 0.89
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 10,
+  "accuracy": 0.8,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 608957.0,
+  "mean_rate_hz": 19.65962873284907,
+  "spikes_per_correct": 7611.9625,
+  "selectivity": 0.9321658366812834,
+  "coverage_pct": 10.75358422939068,
+  "propagation_ratio": 0.7538719326362561,
+  "mean_dw": 0.7714711421811131,
+  "weight_drift": 0.009075509975931416,
+  "convergence_curve": [
+   [
+    10,
+    0.56
+   ],
+   [
+    25,
+    0.67
+   ],
+   [
+    50,
+    0.71
+   ],
+   [
+    75,
+    0.79
+   ],
+   [
+    100,
+    0.8
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.42,
+   "50": 0.5,
+   "100": 0.67,
+   "250": 0.8,
+   "500": 0.86
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 11,
+  "accuracy": 0.55,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.95,
+   "Medium": 0.925,
+   "Hard": 0.825,
+   "Very hard": 0.725
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 773163.0,
+  "mean_rate_hz": 24.960871670702183,
+  "spikes_per_correct": 14057.509090909089,
+  "selectivity": 0.9299632799360933,
+  "coverage_pct": 10.594086021505376,
+  "propagation_ratio": 3.2401899793773636,
+  "mean_dw": 0.9318355653771229,
+  "weight_drift": 0.013480924856596313,
+  "convergence_curve": [
+   [
+    10,
+    0.39
+   ],
+   [
+    25,
+    0.45
+   ],
+   [
+    50,
+    0.49
+   ],
+   [
+    75,
+    0.48
+   ],
+   [
+    100,
+    0.55
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.4,
+   "50": 0.33,
+   "100": 0.42,
+   "250": 0.55,
+   "500": 0.53
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 12,
+  "accuracy": 0.8,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 0.925
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 573476.0,
+  "mean_rate_hz": 18.51415657788539,
+  "spikes_per_correct": 7168.45,
+  "selectivity": 0.938343680501931,
+  "coverage_pct": 9.635304659498209,
+  "propagation_ratio": 0.7115986007943931,
+  "mean_dw": 0.6933675012112701,
+  "weight_drift": 0.011062715632187744,
+  "convergence_curve": [
+   [
+    10,
+    0.56
+   ],
+   [
+    25,
+    0.55
+   ],
+   [
+    50,
+    0.82
+   ],
+   [
+    75,
+    0.76
+   ],
+   [
+    100,
+    0.8
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.46,
+   "50": 0.52,
+   "100": 0.71,
+   "250": 0.8,
+   "500": 0.9
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 13,
+  "accuracy": 0.79,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 1.0,
+   "Very hard": 1.0
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 649066.0,
+  "mean_rate_hz": 20.954511702986277,
+  "spikes_per_correct": 8216.025316455696,
+  "selectivity": 0.9339500589149149,
+  "coverage_pct": 11.07258064516129,
+  "propagation_ratio": 1.0610608006805553,
+  "mean_dw": 0.9498500861986627,
+  "weight_drift": 0.02308501391830996,
+  "convergence_curve": [
+   [
+    10,
+    0.42
+   ],
+   [
+    25,
+    0.6
+   ],
+   [
+    50,
+    0.72
+   ],
+   [
+    75,
+    0.72
+   ],
+   [
+    100,
+    0.79
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.43,
+   "50": 0.56,
+   "100": 0.73,
+   "250": 0.79,
+   "500": 0.84
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "configuration",
+  "stdp": true,
+  "wta": true,
+  "seed": 14,
+  "accuracy": 0.66,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 1.0,
+   "Hard": 0.925,
+   "Very hard": 0.85
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 635086.0,
+  "mean_rate_hz": 20.503179983857947,
+  "spikes_per_correct": 9622.515151515152,
+  "selectivity": 0.9359484724488588,
+  "coverage_pct": 9.39336917562724,
+  "propagation_ratio": 1.478293425594053,
+  "mean_dw": 0.49329576032177713,
+  "weight_drift": 0.005299224845274056,
+  "convergence_curve": [
+   [
+    10,
+    0.41
+   ],
+   [
+    25,
+    0.46
+   ],
+   [
+    50,
+    0.58
+   ],
+   [
+    75,
+    0.64
+   ],
+   [
+    100,
+    0.66
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.49,
+   "50": 0.44,
+   "100": 0.6,
+   "250": 0.66,
+   "500": 0.75
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "configuration_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 5,
+  "accuracy": 0.37,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.875,
+   "Easy": 0.825,
+   "Medium": 0.8,
+   "Hard": 0.625,
+   "Very hard": 0.575
+  },
+  "input_accuracy": 0.3,
+  "test_spikes": 1286929.0,
+  "mean_rate_hz": 41.547344632768365,
+  "spikes_per_correct": 34781.86486486487,
+  "selectivity": 0.9074518166768328,
+  "coverage_pct": 9.686379928315413,
+  "propagation_ratio": 0.4871273295792889,
+  "mean_dw": 0.5727195569243312,
+  "weight_drift": 0.018223062040608192,
+  "convergence_curve": [
+   [
+    10,
+    0.22
+   ],
+   [
+    25,
+    0.26
+   ],
+   [
+    50,
+    0.33
+   ],
+   [
+    75,
+    0.34
+   ],
+   [
+    100,
+    0.37
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.22,
+   "50": 0.3,
+   "100": 0.34,
+   "250": 0.37,
+   "500": 0.44
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 6,
+  "accuracy": 0.41,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.9,
+   "Easy": 0.9,
+   "Medium": 0.8,
+   "Hard": 0.675,
+   "Very hard": 0.6
+  },
+  "input_accuracy": 0.14,
+  "test_spikes": 902631.0,
+  "mean_rate_hz": 29.140629539951576,
+  "spikes_per_correct": 22015.39024390244,
+  "selectivity": 0.9066052076209394,
+  "coverage_pct": 14.297491039426523,
+  "propagation_ratio": 0.6579974882716818,
+  "mean_dw": 0.6150956468310147,
+  "weight_drift": 0.07466605655502975,
+  "convergence_curve": [
+   [
+    10,
+    0.29
+   ],
+   [
+    25,
+    0.33
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.36
+   ],
+   [
+    100,
+    0.41
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.29,
+   "50": 0.31,
+   "100": 0.4,
+   "250": 0.41,
+   "500": 0.57
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 7,
+  "accuracy": 0.45,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 0.9,
+   "Medium": 0.875,
+   "Hard": 0.675,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.2,
+  "test_spikes": 836692.0,
+  "mean_rate_hz": 27.01184826472962,
+  "spikes_per_correct": 18593.155555555557,
+  "selectivity": 0.9197115002735211,
+  "coverage_pct": 12.614695340501791,
+  "propagation_ratio": 0.633822817492335,
+  "mean_dw": 0.6214918499425125,
+  "weight_drift": 0.021233133533826314,
+  "convergence_curve": [
+   [
+    10,
+    0.39
+   ],
+   [
+    25,
+    0.32
+   ],
+   [
+    50,
+    0.4
+   ],
+   [
+    75,
+    0.45
+   ],
+   [
+    100,
+    0.45
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.32,
+   "50": 0.29,
+   "100": 0.4,
+   "250": 0.45,
+   "500": 0.64
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 8,
+  "accuracy": 0.34,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.925,
+   "Easy": 0.9,
+   "Medium": 0.85,
+   "Hard": 0.6,
+   "Very hard": 0.65
+  },
+  "input_accuracy": 0.16,
+  "test_spikes": 1211777.0,
+  "mean_rate_hz": 39.12112994350282,
+  "spikes_per_correct": 35640.5,
+  "selectivity": 0.8996652485037286,
+  "coverage_pct": 11.9247311827957,
+  "propagation_ratio": 0.6819606298569791,
+  "mean_dw": 0.5832597191186922,
+  "weight_drift": 0.017074990575066028,
+  "convergence_curve": [
+   [
+    10,
+    0.28
+   ],
+   [
+    25,
+    0.34
+   ],
+   [
+    50,
+    0.36
+   ],
+   [
+    75,
+    0.36
+   ],
+   [
+    100,
+    0.34
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.28,
+   "50": 0.28,
+   "100": 0.28,
+   "250": 0.34,
+   "500": 0.42
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 9,
+  "accuracy": 0.53,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 1.0,
+   "Medium": 0.925,
+   "Hard": 0.7,
+   "Very hard": 0.7
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 889452.0,
+  "mean_rate_hz": 28.715157384987894,
+  "spikes_per_correct": 16782.11320754717,
+  "selectivity": 0.9221113225617609,
+  "coverage_pct": 12.963261648745519,
+  "propagation_ratio": 0.4898473819644863,
+  "mean_dw": 0.6596006525299427,
+  "weight_drift": 0.01762165008338713,
+  "convergence_curve": [
+   [
+    10,
+    0.34
+   ],
+   [
+    25,
+    0.39
+   ],
+   [
+    50,
+    0.47
+   ],
+   [
+    75,
+    0.53
+   ],
+   [
+    100,
+    0.53
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.51,
+   "50": 0.46,
+   "100": 0.58,
+   "250": 0.53,
+   "500": 0.67
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 10,
+  "accuracy": 0.52,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 1.0,
+   "Easy": 0.975,
+   "Medium": 0.9,
+   "Hard": 0.725,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 934723.0,
+  "mean_rate_hz": 30.176690879741727,
+  "spikes_per_correct": 17975.44230769231,
+  "selectivity": 0.9119873149316184,
+  "coverage_pct": 15.230286738351255,
+  "propagation_ratio": 0.574065868562416,
+  "mean_dw": 0.7072863239306546,
+  "weight_drift": 0.014624947719756188,
+  "convergence_curve": [
+   [
+    10,
+    0.4
+   ],
+   [
+    25,
+    0.43
+   ],
+   [
+    50,
+    0.45
+   ],
+   [
+    75,
+    0.45
+   ],
+   [
+    100,
+    0.52
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.37,
+   "50": 0.39,
+   "100": 0.54,
+   "250": 0.52,
+   "500": 0.56
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 11,
+  "accuracy": 0.5,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 1.0,
+   "Medium": 0.875,
+   "Hard": 0.65,
+   "Very hard": 0.8
+  },
+  "input_accuracy": 0.22,
+  "test_spikes": 1120559.0,
+  "mean_rate_hz": 36.1762389023406,
+  "spikes_per_correct": 22411.18,
+  "selectivity": 0.921038404685339,
+  "coverage_pct": 10.444444444444445,
+  "propagation_ratio": 0.5526221031788078,
+  "mean_dw": 0.6564770003621213,
+  "weight_drift": 0.03262980231172175,
+  "convergence_curve": [
+   [
+    10,
+    0.33
+   ],
+   [
+    25,
+    0.39
+   ],
+   [
+    50,
+    0.42
+   ],
+   [
+    75,
+    0.47
+   ],
+   [
+    100,
+    0.5
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.3,
+   "50": 0.26,
+   "100": 0.29,
+   "250": 0.5,
+   "500": 0.49
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 12,
+  "accuracy": 0.49,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.95,
+   "Easy": 0.875,
+   "Medium": 0.85,
+   "Hard": 0.8,
+   "Very hard": 0.625
+  },
+  "input_accuracy": 0.23,
+  "test_spikes": 1054889.0,
+  "mean_rate_hz": 34.05614205004036,
+  "spikes_per_correct": 21528.34693877551,
+  "selectivity": 0.9239989531450346,
+  "coverage_pct": 10.074372759856631,
+  "propagation_ratio": 0.5092848681732176,
+  "mean_dw": 0.594657032157184,
+  "weight_drift": 0.027982187168833012,
+  "convergence_curve": [
+   [
+    10,
+    0.38
+   ],
+   [
+    25,
+    0.42
+   ],
+   [
+    50,
+    0.46
+   ],
+   [
+    75,
+    0.46
+   ],
+   [
+    100,
+    0.49
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.32,
+   "50": 0.25,
+   "100": 0.38,
+   "250": 0.49,
+   "500": 0.59
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 13,
+  "accuracy": 0.57,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.975,
+   "Easy": 1.0,
+   "Medium": 0.925,
+   "Hard": 0.85,
+   "Very hard": 0.75
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 842328.0,
+  "mean_rate_hz": 27.193801452784506,
+  "spikes_per_correct": 14777.684210526317,
+  "selectivity": 0.9212855090383292,
+  "coverage_pct": 12.558243727598565,
+  "propagation_ratio": 0.6423320897018457,
+  "mean_dw": 0.6834747198236731,
+  "weight_drift": 0.018250778591261386,
+  "convergence_curve": [
+   [
+    10,
+    0.24
+   ],
+   [
+    25,
+    0.42
+   ],
+   [
+    50,
+    0.48
+   ],
+   [
+    75,
+    0.55
+   ],
+   [
+    100,
+    0.57
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.35,
+   "50": 0.35,
+   "100": 0.41,
+   "250": 0.57,
+   "500": 0.65
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ },
+ {
+  "topology": "er",
+  "stdp": true,
+  "wta": true,
+  "seed": 14,
+  "accuracy": 0.32,
+  "chance": 0.2,
+  "pair_accuracy": {
+   "Very easy": 0.8,
+   "Easy": 0.75,
+   "Medium": 0.625,
+   "Hard": 0.475,
+   "Very hard": 0.425
+  },
+  "input_accuracy": 0.25,
+  "test_spikes": 1550319.0,
+  "mean_rate_hz": 50.05065375302664,
+  "spikes_per_correct": 48447.46875,
+  "selectivity": 0.8945369310714966,
+  "coverage_pct": 10.985663082437275,
+  "propagation_ratio": 0.3988463366430011,
+  "mean_dw": 0.506407483886162,
+  "weight_drift": 0.045133458377298784,
+  "convergence_curve": [
+   [
+    10,
+    0.24
+   ],
+   [
+    25,
+    0.28
+   ],
+   [
+    50,
+    0.33
+   ],
+   [
+    75,
+    0.3
+   ],
+   [
+    100,
+    0.32
+   ]
+  ],
+  "accuracy_vs_window": {
+   "25": 0.18,
+   "50": 0.17,
+   "100": 0.2,
+   "250": 0.32,
+   "500": 0.39
+  },
+  "main_window_ms": 250.0,
+  "n_train": 100,
+  "n_test": 100,
+  "arm": "er_stdp",
+  "w_input": 15.0625
+ }
+]

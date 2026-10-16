@@ -1,16 +1,29 @@
-# Local environment
+# Python virtual environment (create it locally with python -m venv env)
 env/
 venv/
 .venv/
 
-# Large connectome dumps downloaded from FlyWire Codex
-01-data-understanding/data/connections_*.csv.gz
-
-# Python
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
+
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# OS
+# Operating system files
 .DS_Store
 Thumbs.db
+
+# FlyWire connection table. It is too large for GitHub, so download it
+# from Codex as described in data/README.md
+data/raw/connections_buhmann_no_threshold.csv.gz
+
+# Subgraphs that the contact-threshold sweep rebuilds on demand
+data/interim/
+
+# Web demo (06-deployment/demo) dependencies, production build,
+# TypeScript build cache and Vercel settings
+node_modules/
+dist/
+*.tsbuildinfo
+.vercel/

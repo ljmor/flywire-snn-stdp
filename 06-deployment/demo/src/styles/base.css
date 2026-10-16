@@ -1,0 +1,375 @@
+/* ---------------------------------------------------------------------------
+   "Neuromorphic" visual system: an almost black surface, light ink, three series
+   colors for a dark background and an ordinal amber ramp for the five song
+   classes, which are a magnitude, not categories. The series colors were checked
+   for a lightness band, a minimum chroma, separation for color-vision
+   deficiencies and contrast against the surface; all four checks pass.
+--------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: dark;
+
+  /* surfaces and ink */
+  --bg: #080b10;
+  --surface-1: #0e1116;
+  --surface-2: #141922;
+  --surface-3: #1b212b;
+  --line: #222b37;
+  --line-soft: #19202a;
+  --ink: #e9eef5;
+  --ink-2: #9aa7b6;
+  --ink-3: #6c7987;
+
+  /* series (the leads of the demo) */
+  --c-stdp: #199e70; /* connectome + STDP */
+  --c-static: #9085e9; /* connectome without learning */
+  --c-er: #d95926; /* Erdős–Rényi + STDP */
+  --c-stdp-light: #35d89c;
+  --c-static-light: #b5abff;
+  --c-er-light: #ff8a4c;
+  --neutral: #7c8794; /* context arms in the charts */
+
+  /* stimulus: ordinal amber ramp, IPI 25 → 65 ms */
+  --ipi-25: #ffe29a;
+  --ipi-35: #fbc55b;
+  --ipi-45: #efa22b;
+  --ipi-55: #d9820f;
+  --ipi-65: #b96a08;
+  --amber: #efa22b;
+
+  /* state */
+  --ok: #199e70;
+  --bad: #d95926;
+
+  /* typography */
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* spacing */
+  --r1: 4px;
+  --r2: 8px;
+  --r3: 12px;
+  --r4: 16px;
+  --r5: 24px;
+  --r6: 32px;
+  --r7: 48px;
+  --r8: 64px;
+  --radius: 14px;
+  --radius-sm: 9px;
+  --border: 1px solid var(--line);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 18px 48px rgba(0, 0, 0, 0.45);
+  --frame-width: 1180px;
+  --ease: cubic-bezier(0.22, 0.68, 0.24, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 16px/1.6 var(--font);
+  min-height: 100dvh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* live background: faint grid + two still auroras (no cost) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(
+      70ch 60ch at 12% -8%,
+      rgba(25, 158, 112, 0.16),
+      transparent 62%
+    ),
+    radial-gradient(
+      60ch 50ch at 92% 4%,
+      rgba(144, 133, 233, 0.13),
+      transparent 60%
+    ),
+    linear-gradient(180deg, rgba(8, 11, 16, 0) 45%, var(--bg) 96%);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(rgba(120, 150, 180, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 150, 180, 0.045) 1px, transparent 1px);
+  background-size: 46px 46px;
+  mask-image: radial-gradient(120ch 90ch at 50% 0%, #000 20%, transparent 78%);
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: rgba(53, 216, 156, 0.28);
+}
+
+/* ---------------------------------------------------------------- typography */
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.14;
+  letter-spacing: -0.022em;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 6.2vw, 4.1rem);
+}
+h2 {
+  font-size: clamp(1.6rem, 3.6vw, 2.5rem);
+}
+h3 {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  letter-spacing: -0.012em;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--c-stdp-light);
+  text-underline-offset: 3px;
+}
+
+b,
+strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+code,
+.mono,
+.num {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+.eyebrow {
+  font: 600 11.5px/1 var(--mono);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.lead {
+  color: var(--ink-2);
+  font-size: clamp(1rem, 1.5vw, 1.14rem);
+  max-width: 66ch;
+}
+
+.footnote {
+  color: var(--ink-3);
+  font-size: 12.5px;
+  line-height: 1.55;
+  max-width: 72ch;
+}
+
+/* --------------------------------------------------------------- structure */
+.frame {
+  width: 100%;
+  max-width: var(--frame-width);
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 34px);
+}
+
+.section {
+  padding-block: clamp(56px, 9vw, 116px);
+  position: relative;
+  /* clip (not hidden) trims the leftover horizontal overflow of wide tables
+     without creating a scroll container, so the sticky bar of the lab keeps
+     working */
+  overflow-x: clip;
+}
+
+.section + .section {
+  border-top: 1px solid var(--line-soft);
+}
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--r3);
+  margin-bottom: var(--r6);
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(21, 26, 34, 0.92),
+    rgba(13, 17, 22, 0.92)
+  );
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+/* ---------------------------------------------------------------- controls */
+button {
+  font: inherit;
+  color: inherit;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+:where(button, a, [tabindex]):focus-visible {
+  outline: 2px solid var(--c-stdp-light);
+  outline-offset: 2px;
+  border-radius: var(--r2);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  min-height: 46px;
+  padding: 0 var(--r5);
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 15px;
+  background: var(--ink);
+  color: #05070a;
+  transition:
+    transform 0.18s var(--ease),
+    box-shadow 0.22s var(--ease),
+    opacity 0.18s var(--ease);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
+}
+.btn:active {
+  transform: scale(0.975);
+}
+.btn.ghost {
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--ink);
+  border: var(--border);
+  box-shadow: none;
+}
+.btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+.btn.primary {
+  background: linear-gradient(135deg, var(--c-stdp-light), var(--c-stdp));
+  color: #04120c;
+}
+
+.seg {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 3px;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.045);
+  border: var(--border);
+  border-radius: 999px;
+}
+.seg > button {
+  min-height: 38px;
+  padding: 0 15px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-2);
+  transition: all 0.2s var(--ease);
+  white-space: nowrap;
+}
+.seg > button:hover {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.05);
+}
+.seg > button[aria-pressed='true'],
+.seg > button.on {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.09);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font: 600 11px/1.6 var(--mono);
+  letter-spacing: 0.05em;
+  border: 1px solid currentColor;
+  text-transform: uppercase;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 3px;
+  flex: none;
+  background: currentColor;
+}
+
+/* --------------------------------------------------------------- utilities */
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--r3);
+  flex-wrap: wrap;
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.scroll-x {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,326 @@
+{
+ "e_mac_pj": 1.5,
+ "e_add_pj": 0.1,
+ "points": [
+  {
+   "model": "linear",
+   "bins": 5,
+   "H": 0,
+   "accuracy": 0.68,
+   "macs": 3075,
+   "energy_uj": 0.004857765
+  },
+  {
+   "model": "MLP",
+   "bins": 5,
+   "H": 8,
+   "accuracy": 0.57,
+   "macs": 4960,
+   "energy_uj": 0.007685265
+  },
+  {
+   "model": "MLP",
+   "bins": 5,
+   "H": 16,
+   "accuracy": 0.58,
+   "macs": 9920,
+   "energy_uj": 0.015125264999999999
+  },
+  {
+   "model": "MLP",
+   "bins": 5,
+   "H": 32,
+   "accuracy": 0.64,
+   "macs": 19840,
+   "energy_uj": 0.030005265
+  },
+  {
+   "model": "MLP",
+   "bins": 5,
+   "H": 64,
+   "accuracy": 0.62,
+   "macs": 39680,
+   "energy_uj": 0.059765265
+  },
+  {
+   "model": "MLP",
+   "bins": 5,
+   "H": 128,
+   "accuracy": 0.66,
+   "macs": 79360,
+   "energy_uj": 0.119285265
+  },
+  {
+   "model": "GRU",
+   "bins": 5,
+   "H": 8,
+   "accuracy": 0.3100000023841858,
+   "macs": 15760,
+   "energy_uj": 0.023885265
+  },
+  {
+   "model": "GRU",
+   "bins": 5,
+   "H": 16,
+   "accuracy": 0.38999998569488525,
+   "macs": 33440,
+   "energy_uj": 0.050405265
+  },
+  {
+   "model": "GRU",
+   "bins": 5,
+   "H": 32,
+   "accuracy": 0.47999998927116394,
+   "macs": 74560,
+   "energy_uj": 0.112085265
+  },
+  {
+   "model": "GRU",
+   "bins": 5,
+   "H": 64,
+   "accuracy": 0.4399999976158142,
+   "macs": 179840,
+   "energy_uj": 0.270005265
+  },
+  {
+   "model": "linear",
+   "bins": 10,
+   "H": 0,
+   "accuracy": 0.96,
+   "macs": 6150,
+   "energy_uj": 0.009470265
+  },
+  {
+   "model": "MLP",
+   "bins": 10,
+   "H": 8,
+   "accuracy": 0.83,
+   "macs": 9880,
+   "energy_uj": 0.015065265
+  },
+  {
+   "model": "MLP",
+   "bins": 10,
+   "H": 16,
+   "accuracy": 0.8,
+   "macs": 19760,
+   "energy_uj": 0.029885265
+  },
+  {
+   "model": "MLP",
+   "bins": 10,
+   "H": 32,
+   "accuracy": 0.9,
+   "macs": 39520,
+   "energy_uj": 0.059525265
+  },
+  {
+   "model": "MLP",
+   "bins": 10,
+   "H": 64,
+   "accuracy": 0.88,
+   "macs": 79040,
+   "energy_uj": 0.118805265
+  },
+  {
+   "model": "MLP",
+   "bins": 10,
+   "H": 128,
+   "accuracy": 0.9,
+   "macs": 158080,
+   "energy_uj": 0.23736526500000002
+  },
+  {
+   "model": "GRU",
+   "bins": 10,
+   "H": 8,
+   "accuracy": 0.47999998927116394,
+   "macs": 31480,
+   "energy_uj": 0.047465265
+  },
+  {
+   "model": "GRU",
+   "bins": 10,
+   "H": 16,
+   "accuracy": 0.5400000214576721,
+   "macs": 66800,
+   "energy_uj": 0.100445265
+  },
+  {
+   "model": "GRU",
+   "bins": 10,
+   "H": 32,
+   "accuracy": 0.6600000262260437,
+   "macs": 148960,
+   "energy_uj": 0.22368526500000002
+  },
+  {
+   "model": "GRU",
+   "bins": 10,
+   "H": 64,
+   "accuracy": 0.7300000190734863,
+   "macs": 359360,
+   "energy_uj": 0.5392852650000001
+  },
+  {
+   "model": "linear",
+   "bins": 25,
+   "H": 0,
+   "accuracy": 1.0,
+   "macs": 15375,
+   "energy_uj": 0.023307765
+  },
+  {
+   "model": "MLP",
+   "bins": 25,
+   "H": 8,
+   "accuracy": 1.0,
+   "macs": 24640,
+   "energy_uj": 0.037205265
+  },
+  {
+   "model": "MLP",
+   "bins": 25,
+   "H": 16,
+   "accuracy": 1.0,
+   "macs": 49280,
+   "energy_uj": 0.074165265
+  },
+  {
+   "model": "MLP",
+   "bins": 25,
+   "H": 32,
+   "accuracy": 1.0,
+   "macs": 98560,
+   "energy_uj": 0.14808526500000002
+  },
+  {
+   "model": "MLP",
+   "bins": 25,
+   "H": 64,
+   "accuracy": 1.0,
+   "macs": 197120,
+   "energy_uj": 0.295925265
+  },
+  {
+   "model": "MLP",
+   "bins": 25,
+   "H": 128,
+   "accuracy": 1.0,
+   "macs": 394240,
+   "energy_uj": 0.591605265
+  },
+  {
+   "model": "GRU",
+   "bins": 25,
+   "H": 8,
+   "accuracy": 0.33000001311302185,
+   "macs": 78640,
+   "energy_uj": 0.118205265
+  },
+  {
+   "model": "GRU",
+   "bins": 25,
+   "H": 16,
+   "accuracy": 0.47999998927116394,
+   "macs": 166880,
+   "energy_uj": 0.25056526500000004
+  },
+  {
+   "model": "GRU",
+   "bins": 25,
+   "H": 32,
+   "accuracy": 0.5699999928474426,
+   "macs": 372160,
+   "energy_uj": 0.5584852650000001
+  },
+  {
+   "model": "GRU",
+   "bins": 25,
+   "H": 64,
+   "accuracy": 0.9100000262260437,
+   "macs": 897920,
+   "energy_uj": 1.3471252649999998
+  },
+  {
+   "model": "linear",
+   "bins": 50,
+   "H": 0,
+   "accuracy": 1.0,
+   "macs": 30750,
+   "energy_uj": 0.046370265
+  },
+  {
+   "model": "MLP",
+   "bins": 50,
+   "H": 8,
+   "accuracy": 1.0,
+   "macs": 49240,
+   "energy_uj": 0.074105265
+  },
+  {
+   "model": "MLP",
+   "bins": 50,
+   "H": 16,
+   "accuracy": 1.0,
+   "macs": 98480,
+   "energy_uj": 0.147965265
+  },
+  {
+   "model": "MLP",
+   "bins": 50,
+   "H": 32,
+   "accuracy": 1.0,
+   "macs": 196960,
+   "energy_uj": 0.29568526500000003
+  },
+  {
+   "model": "MLP",
+   "bins": 50,
+   "H": 64,
+   "accuracy": 1.0,
+   "macs": 393920,
+   "energy_uj": 0.5911252650000001
+  },
+  {
+   "model": "MLP",
+   "bins": 50,
+   "H": 128,
+   "accuracy": 1.0,
+   "macs": 787840,
+   "energy_uj": 1.182005265
+  },
+  {
+   "model": "GRU",
+   "bins": 50,
+   "H": 8,
+   "accuracy": 0.3100000023841858,
+   "macs": 157240,
+   "energy_uj": 0.236105265
+  },
+  {
+   "model": "GRU",
+   "bins": 50,
+   "H": 16,
+   "accuracy": 0.38999998569488525,
+   "macs": 333680,
+   "energy_uj": 0.500765265
+  },
+  {
+   "model": "GRU",
+   "bins": 50,
+   "H": 32,
+   "accuracy": 0.6000000238418579,
+   "macs": 744160,
+   "energy_uj": 1.116485265
+  },
+  {
+   "model": "GRU",
+   "bins": 50,
+   "H": 64,
+   "accuracy": 0.6000000238418579,
+   "macs": 1795520,
+   "energy_uj": 2.6935252650000003
+  }
+ ]
+}

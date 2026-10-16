@@ -1,0 +1,25 @@
+{
+  "flywire_snapshot": "v783",
+  "min_contacts": 5,
+  "n_jo_total": 393,
+  "n_partners": 972,
+  "n_nodes": 1239,
+  "n_jo_in_graph": 269,
+  "n_jo_input": 123,
+  "n_edges": 20059,
+  "edges_by_polarity": {
+    "Inhibitory": 11437,
+    "Excitatory": 8512,
+    "Modulatory": 110
+  },
+  "jo_edges_reassigned_to_ach": 757,
+  "total_weight": 338013,
+  "jo_input_by_side": {
+    "right": 82,
+    "left": 41
+  },
+  "jo_input_by_subtype": {
+    "JO-B": 87,
+    "JO-A": 36
+  }
+}

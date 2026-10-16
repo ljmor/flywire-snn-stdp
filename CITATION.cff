@@ -1,0 +1,140 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results, please cite it as below.
+  If you use the FlyWire data, please also cite the FlyWire publications
+  listed under references and the others given in data/README.md.
+type: software
+title: "A spiking neural network wired like the auditory circuit of Drosophila"
+abstract: >-
+  A spiking neural network, simulated in Brian2, whose wiring is the
+  auditory subgraph of Johnston's organ in the FlyWire v783 connectome of
+  Drosophila melanogaster (1,239 neurons and 20,059 connections). Trained
+  with spike-timing-dependent plasticity (STDP) and winner-take-all
+  inhibition, it classifies the inter-pulse interval of synthetic fly
+  courtship songs (five classes, from 25 to 65 ms) with an accuracy of
+  0.875, against 0.768 for a configuration-model control and 0.443 for an
+  Erdős–Rényi control trained with the same rule. Plasticity improves only
+  the connectome significantly. The repository follows the phases of
+  CRISP-DM and includes the data pipeline, the experiments, their stored
+  outputs, a reproduction guide and an interactive web demo.
+authors:
+  - family-names: "Mora"
+    given-names: "Luis"
+    affiliation: "Universidad Técnica Particular de Loja"
+  - family-names: "Alvarez"
+    given-names: "Jean"
+    affiliation: "Universidad Técnica Particular de Loja"
+license: MIT
+repository-code: "https://github.com/ljmor/flywire-snn-stdp"
+keywords:
+  - spiking neural network
+  - connectome
+  - FlyWire
+  - Drosophila melanogaster
+  - Johnston's organ
+  - spike-timing-dependent plasticity
+  - Brian2
+  - neuromorphic computing
+  - CRISP-DM
+# Author lists of the references follow the APA 7 form used in the
+# repository: the first 19 authors and the last one.
+references:
+  - type: article
+    title: "Neuronal wiring diagram of an adult brain"
+    authors:
+      - family-names: "Dorkenwald"
+        given-names: "S."
+      - family-names: "Matsliah"
+        given-names: "A."
+      - family-names: "Sterling"
+        given-names: "A. R."
+      - family-names: "Schlegel"
+        given-names: "P."
+      - family-names: "Yu"
+        given-names: "S.-c."
+      - family-names: "McKellar"
+        given-names: "C. E."
+      - family-names: "Lin"
+        given-names: "A."
+      - family-names: "Costa"
+        given-names: "M."
+      - family-names: "Eichler"
+        given-names: "K."
+      - family-names: "Yin"
+        given-names: "Y."
+      - family-names: "Silversmith"
+        given-names: "W."
+      - family-names: "Schneider-Mizell"
+        given-names: "C."
+      - family-names: "Jordan"
+        given-names: "C. S."
+      - family-names: "Brittain"
+        given-names: "D."
+      - family-names: "Halageri"
+        given-names: "A."
+      - family-names: "Kuehner"
+        given-names: "K."
+      - family-names: "Ogedengbe"
+        given-names: "O."
+      - family-names: "Morey"
+        given-names: "R."
+      - family-names: "Gager"
+        given-names: "J."
+      - name: "The FlyWire Consortium"
+    journal: "Nature"
+    volume: 634
+    issue: 8032
+    start: 124
+    end: 138
+    year: 2024
+    doi: "10.1038/s41586-024-07558-y"
+  - type: article
+    title: "Whole-brain annotation and multi-connectome cell typing of Drosophila"
+    authors:
+      - family-names: "Schlegel"
+        given-names: "P."
+      - family-names: "Yin"
+        given-names: "Y."
+      - family-names: "Bates"
+        given-names: "A. S."
+      - family-names: "Dorkenwald"
+        given-names: "S."
+      - family-names: "Eichler"
+        given-names: "K."
+      - family-names: "Brooks"
+        given-names: "P."
+      - family-names: "Han"
+        given-names: "D. S."
+      - family-names: "Gkantia"
+        given-names: "M."
+      - family-names: "dos Santos"
+        given-names: "M."
+      - family-names: "Munnelly"
+        given-names: "E. J."
+      - family-names: "Badalamente"
+        given-names: "G."
+      - family-names: "Serratosa Capdevila"
+        given-names: "L."
+      - family-names: "Sane"
+        given-names: "V. A."
+      - family-names: "Fragniere"
+        given-names: "A. M. C."
+      - family-names: "Kiassat"
+        given-names: "L."
+      - family-names: "Pleijzier"
+        given-names: "M. W."
+      - family-names: "Stürner"
+        given-names: "T."
+      - family-names: "Tamimi"
+        given-names: "I. F. M."
+      - family-names: "Dunne"
+        given-names: "C. R."
+      - family-names: "Jefferis"
+        given-names: "G. S. X. E."
+    journal: "Nature"
+    volume: 634
+    issue: 8032
+    start: 139
+    end: 152
+    year: 2024
+    doi: "10.1038/s41586-024-07686-5"
