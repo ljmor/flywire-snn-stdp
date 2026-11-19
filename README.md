@@ -2,6 +2,8 @@
 
 **Connectome topology and spike-timing-dependent plasticity on the FlyWire Johnston's organ subgraph**
 
+[![DOI](https://zenodo.org/badge/1308220337.svg)](https://doi.org/10.5281/zenodo.24357468)
+
 We copied the hearing circuit of the fruit fly into a simulated network, neuron by neuron and connection by connection, and asked whether that wiring helps the network learn. It does. With a local learning rule, the fly's wiring tells apart five rhythms of the fly's courtship song with an accuracy of 0.875. A random network of the same size, trained with the same rule, stays at 0.443. What surprised us is that the wiring only helps when the network learns. Without learning it does no better than a random network that keeps the number of connections of each neuron.
 
 This repository holds the whole study. Every stored result sits next to the notebook that prints it. A single pipeline rebuilds everything from the raw data, and a web demo lets you hear the songs the networks heard.
@@ -223,7 +225,9 @@ The MIT License does not cover the data. The FlyWire files in `data/raw/` and ev
 
 If you use this code or its results, please cite the repository.
 
-> Mora, L., & Alvarez, J. (2026). *A spiking neural network wired like the auditory circuit of* Drosophila [Computer software]. Universidad Técnica Particular de Loja. https://github.com/ljmor/flywire-snn-stdp
+> Mora Aguilar, L. J., & Alvarez Torres, J. C. (2026). *A spiking neural network wired like the auditory circuit of* Drosophila [Computer software]. Universidad Técnica Particular de Loja. https://github.com/ljmor/flywire-snn-stdp
+
+Every release is archived in Zenodo. The DOI [10.5281/zenodo.24357468](https://doi.org/10.5281/zenodo.24357468) stands for all the versions and always resolves to the latest one.
 
 [`CITATION.cff`](CITATION.cff) holds the same information in machine-readable form. If you use the data, please cite FlyWire as described above. If you run the simulations, please cite Brian2 (Stimberg et al., 2019) as well. The [data credits of the reproduction guide](06-deployment/README.md#10-data-credits-and-license) list the references of all the software the project uses.
 
@@ -231,7 +235,7 @@ If you use this code or its results, please cite the repository.
 
 ## Authors
 
-Luis Mora and Jean Alvarez\
+Luis Javier Mora Aguilar ([ORCID 0009-0004-9406-639X](https://orcid.org/0009-0004-9406-639X)) and Jean Carlo Alvarez Torres ([ORCID 0009-0004-1318-2306](https://orcid.org/0009-0004-1318-2306))\
 Advisor: Alexandra Cristina Gonzáles Eras\
 Undergraduate thesis project, Computer Science program, Universidad Técnica Particular de Loja (UTPL), Ecuador, 2026
 

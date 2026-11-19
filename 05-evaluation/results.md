@@ -71,6 +71,8 @@ Contrasts paired by seed:
 
 The last row is the decisive one. The configuration model keeps, almost exactly, the degree sequence of the connectome and only rewires where the connections go. It therefore rules out the most obvious alternative explanation, that the advantage comes from a few neurons with very many connections. A recent preprint, not yet peer reviewed, argues that topology advantages reported for connectome-constrained networks can disappear against such degree-preserving controls (Dhiman, 2026). With the first five seeds this difference was +0.156 and did not reach significance (p = 0.17). With fifteen it does. The ten extra seeds were added after that first result, and on them alone the connectome leads by +0.083, with p = 0.0593.
 
+Two more checks apply to this contrast. The paired t-test assumes that the fifteen differences follow a normal distribution, and a Shapiro–Wilk test rejects that (p = 0.0153). The notebook therefore repeats the comparison with a Wilcoxon signed-rank test, which uses only the ranks of the differences, and it agrees (p = 0.0084). The 95% confidence interval of the mean difference runs from +0.023 to +0.192. It excludes zero, but not by much, and the configuration model matches or beats the connectome in 4 of the 15 seeds.
+
 ---
 
 ## 4. The interaction between topology and plasticity
@@ -280,7 +282,7 @@ The accuracy of the connectome holds across seeds, channel mappings and contact 
 - **The readout is linear.** A non-linear decoder could extract structure that logistic regression misses, and not necessarily to the same degree in every topology.
 - **Five intervals, one carrier, synthetic songs.** The result should be checked with other carriers and with recorded natural songs.
 - **No synaptic delays.** All transmission is instantaneous. In a temporal task, delays proportional to anatomical distance would give the spatial structure of the connectome an extra dynamic consequence.
-- **The advantage over the degree-preserving control is the narrowest** (+0.107). It is significant, but it should always be reported with its effect size.
+- **The advantage over the degree-preserving control is the narrowest** (+0.107). It is significant, but it should always be reported with its effect size and its confidence interval (+0.023 to +0.192).
 - **The p-values are not corrected for multiple comparisons.** Over the five contrasts of the connectome with plasticity, the Holm procedure keeps all of them below 0.05. The stricter Bonferroni correction raises the decisive one to 0.0836 (Section 1 of the notebook).
 - **The interaction is significant against one control only.** Tested directly, it holds against the random network (p = 0.0114) but not against the degree-preserving control (p = 0.0988), whose gain rests on five paired seeds.
 - **Seeds added after a first result.** The plastic arms went from five to fifteen seeds after a non-significant first contrast with the degree-preserving control. On the ten added seeds alone the connectome leads by +0.083, with p = 0.0593.

@@ -134,6 +134,16 @@ When we prepared this repository we re-ran the notebook in a fresh environment, 
 
 ---
 
+## Three checks on the decisive contrast (18 November 2026)
+
+On a later review of the statistics we looked again at the contrast between the connectome and the configuration model, both with plasticity. The notebook reported a paired t-test for it and said nothing about the assumptions of that test. We added three things to the cell of the statistical contrasts.
+
+The first is the 95% confidence interval of the mean paired difference, which runs from +0.023 to +0.192. The second is a Shapiro–Wilk test on the fifteen differences. It rejects normality (p = 0.0153), and two seeds stand out, with differences of +0.52 and +0.35. The third is a Wilcoxon signed-rank test, which does not assume normality and gives p = 0.0084. The cell also counts the seeds in which the configuration model matches or beats the connectome, 4 of 15.
+
+None of this changes the verdict. The rank test agrees with the t-test, and the interval excludes zero by a small margin, which is what the effect size already suggested. No simulation was run again. The cell reads the same stored results as before.
+
+---
+
 ## Where the phase stands
 
 ```

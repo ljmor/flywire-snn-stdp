@@ -18,14 +18,18 @@ abstract: >-
   CRISP-DM and includes the data pipeline, the experiments, their stored
   outputs, a reproduction guide and an interactive web demo.
 authors:
-  - family-names: "Mora"
-    given-names: "Luis"
+  - family-names: "Mora Aguilar"
+    given-names: "Luis Javier"
+    orcid: "https://orcid.org/0009-0004-9406-639X"
     affiliation: "Universidad Técnica Particular de Loja"
-  - family-names: "Alvarez"
-    given-names: "Jean"
+  - family-names: "Alvarez Torres"
+    given-names: "Jean Carlo"
+    orcid: "https://orcid.org/0009-0004-1318-2306"
     affiliation: "Universidad Técnica Particular de Loja"
 license: MIT
 repository-code: "https://github.com/ljmor/flywire-snn-stdp"
+# Zenodo DOI of all the versions. It always resolves to the latest release.
+doi: "10.5281/zenodo.24357468"
 keywords:
   - spiking neural network
   - connectome
